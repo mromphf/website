@@ -1,15 +1,14 @@
 <script>
+import Masthead from "@/components/Masthead.vue";
 export default {
-  name: "Landing"
+  name: "Landing",
+  components: {Masthead}
 }
 </script>
 
 <template>
-  <h1>Hello World</h1>
+  <Masthead />
 </template>
 
 <style scoped>
-h1 {
-  color: blue;
-}
 </style>
