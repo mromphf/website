@@ -37,12 +37,19 @@ header .header-left, .header-right {
   justify-content: center;
   align-items: center;
   width: 48%;
+  height: 400px;
 }
 
 header .header-right {
+  border: 1px solid blue;
+
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+header .header-left {
+  border: 1px solid orange;
 }
 
 header img {
