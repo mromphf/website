@@ -21,6 +21,7 @@ export default {
 
 <style scoped>
 #ticketHousing {
+  border: 1px solid red;
   column-count: 2;
   column-gap: 1rem;
   margin-top: 7vh;
