@@ -1,13 +1,15 @@
 <script>
 import Masthead from "@/components/Masthead.vue";
 import Ticket from "@/components/Ticket.vue";
+import Menu from "@/components/Menu.vue"
 export default {
   name: "Landing",
-  components: {Ticket, Masthead}
+  components: {Ticket, Masthead, Menu}
 }
 </script>
 
 <template>
+  <Menu />
   <Masthead />
   <section id="ticketHousing">
     <Ticket/>

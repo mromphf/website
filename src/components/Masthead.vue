@@ -25,7 +25,6 @@ header {
   background-color: beige;
   width: 100%;
   height: 18vh;
-  margin-top: 8vh;
 }
 
 header h1, h2 {
