@@ -7,7 +7,7 @@ export default {
 <template>
   <header>
     <div class="header-left">
-      <img src="/public/Teddy2.jpg" alt="Mike Romeo" height="200" width="200"/>
+      <img src="/public/Teddy2.jpg" alt="Mike Romeo" height="400" width="400"/>
     </div>
     <div class="header-right">
       <h2>Mark</h2>
@@ -25,7 +25,7 @@ header {
   background-color: beige;
   width: 100%;
   height: 18vh;
-  margin-top: 5vh;
+  margin-top: 8vh;
 }
 
 header h1, h2 {
@@ -49,6 +49,7 @@ header .header-right {
 header img {
   max-width: 100%;
   height: auto;
+  border-radius: 15rem;
 }
 
 </style>
