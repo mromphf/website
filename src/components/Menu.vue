@@ -7,9 +7,9 @@ export default {
 <template>
   <nav>
     <ul>
-      <li>Foo</li>
-      <li>Bar</li>
-      <li>Baz</li>
+      <li><a href="#">Foo</a></li>
+      <li><a href="#">Bar</a></li>
+      <li><a href="#">Baz</a></li>
     </ul>
   </nav>
 </template>
@@ -26,28 +26,33 @@ nav {
 ul {
   list-style-type: none;
   display: flex;
-  justify-content: flex-start;
   align-items: center;
   padding: 0;
   gap: 2.5rem;
   width: 100%;
+  height: 100%;
+
+  background-color: lightgray;
 }
 
 li {
   font-size: 2rem;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Large - Laptops */
 @media(min-width: 1366px) {
   nav {
     justify-content: flex-end;
-    width: 50%;
-    margin-top: 5rem;
+    margin-top: 5vh;
     margin-left: auto;
   }
 
   ul {
-    margin-left: 5rem;
+    width: 50%;
   }
 }
 </style>
