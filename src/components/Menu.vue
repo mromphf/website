@@ -18,7 +18,9 @@ export default {
 nav {
   width: 100%;
   height: 5vh;
-  background-color: blanchedalmond;
+  border: 1px solid purple;
+  display: flex;
+  align-items: center;
 }
 
 ul {
@@ -27,12 +29,25 @@ ul {
   justify-content: flex-start;
   align-items: center;
   padding: 0;
-  margin-left: 2rem;
-  gap: 1rem;
+  gap: 2.5rem;
   width: 100%;
 }
 
 li {
   font-size: 2rem;
+}
+
+/* Large - Laptops */
+@media(min-width: 1366px) {
+  nav {
+    justify-content: flex-end;
+    width: 50%;
+    margin-top: 5rem;
+    margin-left: auto;
+  }
+
+  ul {
+    margin-left: 5rem;
+  }
 }
 </style>

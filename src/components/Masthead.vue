@@ -81,7 +81,7 @@ header .left {
 /* Medium - Tablets(portrait) */
 @media(min-width: 768px) {
   img {
-    transform: scale(0.7);
+    transform: scale(0.55);
   }
 
   h1 {
@@ -98,6 +98,10 @@ header .left {
 
 /* Large - Laptops */
 @media(min-width: 1366px) {
+  header {
+    margin-top: 0;
+  }
+
   img {
     transform: scale(0.8);
   }
