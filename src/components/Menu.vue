@@ -6,6 +6,11 @@ export default {
 
 <template>
   <nav>
+    <ul>
+      <li>Foo</li>
+      <li>Bar</li>
+      <li>Baz</li>
+    </ul>
   </nav>
 </template>
 
@@ -14,6 +19,20 @@ nav {
   width: 100%;
   height: 5vh;
   background-color: blanchedalmond;
-  margin-top: 7vh;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+  margin-left: 2rem;
+  gap: 1rem;
+  width: 100%;
+}
+
+li {
+  font-size: 2rem;
 }
 </style>
