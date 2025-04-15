@@ -32,6 +32,12 @@ section {
   margin-right: auto;
 }
 
+Ticket {
+  break-inside: avoid;
+  margin-bottom: 1rem;
+  display: block;
+}
+
 @media(min-width: 1366px) {
   section {
     width: 90%;
