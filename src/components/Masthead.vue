@@ -43,13 +43,12 @@ h2 {
 }
 
 section {
-  display: flex;
-  justify-content: center;
   align-items: center;
-  height: 100%;
+  display: flex;
   flex-direction: column;
-
   flex: 1 1 50%;
+  height: 100%;
+  justify-content: center;
 }
 
 img {
@@ -64,8 +63,8 @@ img {
 
 .left {
   border: 1px solid orange;
-  position: relative;
   overflow: visible;
+  position: relative;
 }
 
 /* Small - Phones(landscape) */

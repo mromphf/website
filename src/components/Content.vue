@@ -24,24 +24,25 @@ section {
   border: 1px solid red;
   column-count: 1;
   column-gap: 1rem;
-  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3vh;
   max-height: 80vh;
   overflow-y: auto;
   padding: 1rem;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 Ticket {
   break-inside: avoid;
-  margin-bottom: 1rem;
   display: block;
+  margin-bottom: 1rem;
 }
 
 @media(min-width: 1366px) {
   section {
-    width: 90%;
     column-count: 2;
+    margin-top: 10vh;
+    width: 90%;
   }
 }
 

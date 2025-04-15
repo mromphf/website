@@ -16,21 +16,21 @@ export default {
 
 <style scoped>
 nav {
-  width: 100%;
-  height: 5vh;
+  align-items: center;
   border: 1px solid purple;
   display: flex;
-  align-items: center;
+  height: 5vh;
+  width: 100%;
 }
 
 ul {
-  list-style-type: none;
-  display: flex;
   align-items: center;
-  padding: 0;
+  display: flex;
   gap: 2.5rem;
-  width: 100%;
   height: 100%;
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
 
   background-color: lightgray;
 }
@@ -47,8 +47,8 @@ a {
 @media(min-width: 1366px) {
   nav {
     justify-content: flex-end;
-    margin-top: 5vh;
     margin-left: auto;
+    margin-top: 5vh;
   }
 
   ul {

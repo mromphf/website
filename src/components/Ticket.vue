@@ -28,8 +28,9 @@ article {
 }
 
 article:hover {
-  color: blue;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+  color: blue;
+  cursor: pointer;
 }
 
 section {
@@ -37,11 +38,11 @@ section {
 }
 
 h2, h3 {
-  text-align: center;
   line-height: 5rem;
   overflow: hidden;
-  white-space: nowrap;
+  text-align: center;
   text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 </style>
