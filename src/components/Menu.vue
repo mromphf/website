@@ -7,9 +7,8 @@ export default {
 <template>
   <nav>
     <ul>
-      <li><a href="#">Foo</a></li>
-      <li><a href="#">Bar</a></li>
-      <li><a href="#">Baz</a></li>
+      <li><a href="https://github.com/mromphf">Github</a></li>
+      <li><a href="https://www.gamemaps.com/profile/1267645">GameMaps</a></li>
     </ul>
   </nav>
 </template>
