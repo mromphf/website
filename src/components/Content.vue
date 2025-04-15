@@ -9,12 +9,24 @@ export default {
 
 <template>
   <section>
-    <Ticket/>
-    <Ticket/>
-    <Ticket/>
-    <Ticket/>
-    <Ticket/>
-    <Ticket/>
+    <Ticket product="NWN EE"
+            title="Sinister Sweetwater Cider"
+            reference="https://neverwintervault.org/project/nwnee/module/sinister-sweetwater-cider"/>
+
+    <Ticket product="Warcraft II"
+            title="Encampments"
+            reference="https://www.gamemaps.com/details/31958"/>
+
+    <Ticket product="Half-Life 2"
+            title="Person of Interest"
+            reference="https://www.runthinkshootlive.com/posts/person-of-interest/"/>
+
+    <Ticket product="Warcraft II"
+            title="Sorrow"
+            reference="https://www.gamemaps.com/details/32813"/>
+
+    <Ticket product="Foo" title="Foo Ticket"/>
+    <Ticket product="Bar" title="Bar Ticket"/>
   </section>
 </template>
 

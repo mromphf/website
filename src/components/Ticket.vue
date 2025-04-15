@@ -1,22 +1,47 @@
 <script>
 export default {
-  name: "Ticket"
+  name: "Ticket",
+  props: {
+    product: {
+      type: String,
+      default: "Product"
+    },
+    title: {
+      type: String,
+      default: "Ticket Please"
+    },
+    reference: {
+      type: String,
+      default: "#"
+    }
+  }
 }
 </script>
 
 <template>
-  <article>
-    <section>
-      <h3>Product</h3>
-    </section>
+  <a :href="reference">
+    <article>
+      <section>
+        <h3>{{ product }}</h3>
+      </section>
 
-    <section>
-      <h2>Ticket Please</h2>
-    </section>
-  </article>
+      <section>
+        <h2>{{ title }}</h2>
+      </section>
+    </article>
+  </a>
 </template>
 
 <style scoped>
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: blue
+}
+
 article {
   align-items: center;
   background-color: aquamarine;
