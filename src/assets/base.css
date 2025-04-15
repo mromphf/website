@@ -1,4 +1,39 @@
+:root {
+  --h1-size: 1.5rem;
+  --h2-size: 1.25rem;
+  --line-height: 1.5;
+}
+
 * {
   margin: 0;
   padding: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  line-height: var(--line-height);
+}
+
+
+/* Small - Phones(landscape) */
+@media(min-width: 640px) {
+  :root {
+    --h1-size: 1.75rem;
+    --h2-size: 1.5rem;
+  }
+
+  img {
+    transform: scale(0.5);
+  }
+}
+
+/* Medium - Tablets(portrait) */
+@media(min-width: 768px) {
+  :root {
+    --h1-size: 2.25rem;
+    --h2-size: 1.75rem;
+  }
 }

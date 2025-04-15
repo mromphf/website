@@ -36,13 +36,16 @@ header {
 }
 
 h1, h2 {
-  font-size: 1.25rem;
   text-align: center;
-  line-height: 1.5rem;
+  line-height: var(--line-height);
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: var(--h1-size);
+}
+
+h2 {
+  font-size: var(--h2-size);
 }
 
 section {
@@ -54,11 +57,11 @@ section {
   flex-direction: column;
 }
 
-header .right {
+.right {
   border: 1px solid blue;
 }
 
-header .left {
+.left {
   border: 1px solid orange;
 }
 
@@ -67,31 +70,12 @@ header .left {
   img {
     transform: scale(0.5);
   }
-
-  h1 {
-    font-size: 1.75rem;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-    line-height: 2.5rem;
-  }
 }
 
 /* Medium - Tablets(portrait) */
 @media(min-width: 768px) {
   img {
     transform: scale(0.55);
-  }
-
-  h1 {
-    font-size: 2.25rem;
-    line-height: 2rem;
-  }
-
-  h2 {
-    font-size: 1.75rem;
-    line-height: 3rem;
   }
 }
 
