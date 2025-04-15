@@ -19,12 +19,6 @@ export default {
 
 <style scoped>
 
-img {
-  width: auto;
-  transform: scale(0.3);
-  border-radius: 20rem;
-}
-
 header {
   margin-top: 3.5rem;
   display: flex;
@@ -58,12 +52,20 @@ section {
   flex: 1 1 50%;
 }
 
+img {
+  border-radius: 20rem;
+  position: absolute;
+  transform: scale(0.3);
+}
+
 .right {
   border: 1px solid blue;
 }
 
 .left {
   border: 1px solid orange;
+  position: relative;
+  overflow: visible;
 }
 
 /* Small - Phones(landscape) */
@@ -76,10 +78,9 @@ section {
 /* Medium - Tablets(portrait) */
 @media(min-width: 768px) {
   img {
-    transform: scale(0.55);
+    transform: scale(0.6);
   }
 }
-
 
 /* Large - Laptops */
 @media(min-width: 1366px) {
