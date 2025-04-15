@@ -52,9 +52,10 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 48%;
   height: 100%;
   flex-direction: column;
+
+  flex: 1 1 50%;
 }
 
 .right {
@@ -89,15 +90,11 @@ section {
   img {
     transform: scale(0.8);
   }
-
-  section {
-    width: 45%;
-  }
 }
 
 @media(min-width: 2550px) {
   section {
-    width: 30.5%;
+    flex: 0 0 30%;
   }
 }
 
