@@ -17,6 +17,11 @@ html {
   line-height: var(--line-height);
 }
 
+html, body, #app {
+  height: 100%;
+  margin: 0;
+}
+
 
 /* Small - Phones(landscape) */
 @media(min-width: 640px) {
