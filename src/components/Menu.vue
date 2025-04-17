@@ -7,8 +7,8 @@ export default {
 <template>
   <nav>
     <ul>
-      <li><a href="https://github.com/mromphf">Github</a></li>
-      <li><a href="https://www.gamemaps.com/profile/1267645">GameMaps</a></li>
+      <li><router-link to="/">Home</router-link></li>
+      <li><router-link to="/about">About</router-link></li>
     </ul>
   </nav>
 </template>
