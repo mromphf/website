@@ -1,32 +1,25 @@
 <script>
 import Ticket from "@/components/Ticket.vue";
+import tickets from "@/tickets.js";
 
 export default {
   name: "Content",
-  components: {Ticket}
+  components: {Ticket},
+  data() {
+    return {
+      tickets: tickets
+    }
+  }
 }
 </script>
 
 <template>
   <section>
-    <Ticket product="NWN EE"
-            title="Sinister Sweetwater Cider"
-            reference="https://neverwintervault.org/project/nwnee/module/sinister-sweetwater-cider"/>
-
-    <Ticket product="Warcraft II"
-            title="Encampments"
-            reference="https://www.gamemaps.com/details/31958"/>
-
-    <Ticket product="Half-Life 2"
-            title="Person of Interest"
-            reference="https://www.runthinkshootlive.com/posts/person-of-interest/"/>
-
-    <Ticket product="Warcraft II"
-            title="Sorrow"
-            reference="https://www.gamemaps.com/details/32813"/>
-
-    <Ticket product="Foo" title="Foo Ticket"/>
-    <Ticket product="Bar" title="Bar Ticket"/>
+    <Ticket v-for="ticket in tickets"
+            :key="ticket.id"
+            :product="ticket.product"
+            :title="ticket.title"
+            :reference="ticket.reference"/>
   </section>
 </template>
 
