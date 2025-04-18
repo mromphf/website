@@ -15,7 +15,7 @@ export default {
 
 <template>
   <section class="content-housing">
-    <Card v-for="product in products"
+    <Card v-for="product in Object.values(products)"
              :title="product.title"/>
   </section>
 </template>
