@@ -1,10 +1,10 @@
 <script>
-import Product from "@/components/Product.vue";
+import Card from "@/components/Card.vue";
 import products from "@/products.js";
 
 export default {
   name: "Maps",
-  components: {Product},
+  components: {Card},
   data() {
     return {
       products: products
@@ -15,7 +15,7 @@ export default {
 
 <template>
   <section class="content-housing">
-    <Product v-for="product in products"
+    <Card v-for="product in products"
              :title="product.title"/>
   </section>
 </template>
@@ -26,7 +26,7 @@ export default {
   max-height: none;
 }
 
-Product {
+Card {
   break-inside: avoid;
   display: block;
   margin-bottom: 1rem;

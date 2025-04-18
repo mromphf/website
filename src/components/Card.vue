@@ -1,10 +1,10 @@
 <script>
 export default {
-  name: "Product",
+  name: "Card",
   props: {
     title: {
       type: String,
-      default: "Product"
+      default: "Card"
     }
   }
 }
