@@ -2,6 +2,9 @@
 export default {
   name: "Card",
   props: {
+    id: {
+      type: String,
+    },
     title: {
       type: String,
       default: "Card"
@@ -11,7 +14,7 @@ export default {
 </script>
 
 <template>
-  <router-link :to="{ name: 'mapview', params: { title: title }}">
+  <router-link :to="{ name: 'mapview', params: { id: id }}">
     <article class="content-card">
       <h2>{{ title }}</h2>
     </article>

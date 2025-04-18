@@ -1,9 +1,11 @@
 <script>
+import products from "@/products.js"
+
 export default {
   name: "ProductView",
   data() {
     return {
-      title: this.$route.params.title,
+      product: products[this.$route.params.id],
     }
   }
 }
@@ -11,7 +13,7 @@ export default {
 
 <template>
   <section class="content-housing">
-    <h1>{{ title }}</h1>
+    <h1>{{ product.title }}</h1>
   </section>
 </template>
 

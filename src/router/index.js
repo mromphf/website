@@ -8,7 +8,7 @@ const routes = [
     { path: '/', component: Landing},
     { path: '/about', component: About },
     { path: '/maps', component: Maps },
-    { name: 'mapview', path: '/maps/:title', component: Product },
+    { name: 'mapview', path: '/maps/:id', component: Product },
 ];
 
 const router = createRouter({
