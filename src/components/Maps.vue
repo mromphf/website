@@ -22,6 +22,10 @@ export default {
 
 <style scoped>
 
+.content-housing {
+  max-height: none;
+}
+
 Product {
   break-inside: avoid;
   display: block;
