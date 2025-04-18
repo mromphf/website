@@ -1,25 +1,13 @@
 <script>
 import Product from "@/components/Product.vue";
+import products from "@/products.js";
 
 export default {
   name: "Maps",
   components: {Product},
   data() {
     return {
-      products: [
-        {
-          title: "Neverwinter Nights: EE"
-        },
-        {
-          title: "Warcraft II"
-        },
-        {
-          title: "Half-Life 2"
-        },
-        {
-          title: "Warcraft III"
-        }
-      ]
+      products: products
     }
   }
 }
@@ -27,7 +15,8 @@ export default {
 
 <template>
   <section class="content-housing">
-    <Product v-for="product in products" :title="product.title"/>
+    <Product v-for="product in products"
+             :title="product.title"/>
   </section>
 </template>
 
