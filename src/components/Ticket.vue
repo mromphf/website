@@ -20,7 +20,7 @@ export default {
 
 <template>
   <a :href="reference">
-    <article>
+    <article class="content-card">
       <section>
         <h3>{{ product }}</h3>
       </section>
@@ -42,20 +42,10 @@ a:visited {
   color: blue
 }
 
-article {
-  align-items: center;
-  background-color: aquamarine;
+.content-card {
+  border: none;
   display: grid;
   grid-template-columns: 1fr 3fr;
-  height: 5rem;
-  justify-content: center;
-  margin-bottom: 1rem;
-}
-
-article:hover {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
-  color: blue;
-  cursor: pointer;
 }
 
 section {
