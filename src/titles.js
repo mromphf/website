@@ -1,21 +1,21 @@
-const tickets = [
+const titles = [
     {
-        product: "NWN EE",
+        product: "nwn",
         title: "Sinister Sweetwater Cider",
         reference: "https://neverwintervault.org/project/nwnee/module/sinister-sweetwater-cider"
     },
     {
-        product: "Warcraft II",
+        product: "war2",
         title: "Encampments",
         reference:"https://www.gamemaps.com/details/31958"
     },
     {
-        product:"Half-Life 2",
+        product: "hl2",
         title:"Person of Interest",
         reference:"https://www.runthinkshootlive.com/posts/person-of-interest/"
     },
     {
-        product: "Warcraft II",
+        product: "war2",
         title: "Sorrow",
         reference:"https://www.gamemaps.com/details/32813"
     },
@@ -31,4 +31,4 @@ const tickets = [
     }
 ];
 
-export default tickets
+export default titles

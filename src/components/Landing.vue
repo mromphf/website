@@ -1,13 +1,15 @@
 <script>
 import Ticket from "@/components/Ticket.vue";
-import tickets from "@/tickets.js";
+import titles from "@/titles.js";
+import products from "@/products.js";
 
 export default {
   name: "Landing",
   components: {Ticket},
   data() {
     return {
-      tickets: tickets
+      tickets: titles,
+      products: products,
     }
   }
 }
@@ -16,8 +18,7 @@ export default {
 <template>
   <section class="content-housing">
     <Ticket v-for="ticket in tickets"
-            :key="ticket.id"
-            :product="ticket.product"
+            :product="products[ticket.product]?.title || 'No Product'"
             :title="ticket.title"
             :reference="ticket.reference"/>
   </section>
