@@ -7,7 +7,7 @@ export default {
 <template>
   <header>
     <section class="left">
-      <img src="/public/Teddy2.jpg" alt="Mike Romeo"/>
+      <img src="/src/assets/Teddy2.jpg" alt="Mike Romeo"/>
     </section>
     <section class="right">
       <h2>Mark</h2>
