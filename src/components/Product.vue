@@ -1,11 +1,16 @@
 <script>
 import products from "@/products.js"
+import titles from "@/titles.js"
+
 
 export default {
   name: "ProductView",
   data() {
+    const id = this.$route.params.id;
+
     return {
-      product: products[this.$route.params.id],
+      product: products[id],
+      titles: titles.filter(title => title.product === id),
     }
   }
 }
@@ -14,12 +19,25 @@ export default {
 <template>
   <section class="content-housing">
     <h1>{{ product.title }}</h1>
+
+    <p v-if="titles.length <= 0">Coming soon!</p>
+
+    <ul>
+      <li v-for="title in titles">
+        <a :href="title.reference">{{ title.title }}</a>
+      </li>
+    </ul>
   </section>
 </template>
 
 <style scoped>
 
+ul {
+  list-style-type: none;
+}
+
 .content-housing {
+  column-count: 1;
   text-align: center;
 }
 
