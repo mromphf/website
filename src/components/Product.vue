@@ -11,9 +11,11 @@ export default {
 </script>
 
 <template>
-  <article class="content-card">
-    <h2>{{ title }}</h2>
-  </article>
+  <router-link :to="{ name: 'mapview', params: { title: title }}">
+    <article class="content-card">
+      <h2>{{ title }}</h2>
+    </article>
+  </router-link>
 </template>
 
 <style scoped>
