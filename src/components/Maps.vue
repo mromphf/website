@@ -1,10 +1,11 @@
 <script>
 import Card from "@/components/Card.vue";
+import Masthead from "@/components/Masthead.vue";
 import products from "@/data/products.js";
 
 export default {
   name: "Maps",
-  components: {Card},
+  components: {Card, Masthead},
   data() {
     return {
       products: products
@@ -14,6 +15,8 @@ export default {
 </script>
 
 <template>
+  <Masthead />
+
   <section class="content-housing">
     <Card v-for="product in Object.values(products)"
             :id="product.id"

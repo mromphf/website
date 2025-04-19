@@ -1,10 +1,15 @@
 <script>
+import Masthead from "@/components/Masthead.vue";
+
 export default {
-  name: "About"
+  name: "About",
+  components: { Masthead }
 }
 </script>
 
 <template>
+  <Masthead />
+
   <section>
     <h1>About</h1>
     <h3>Software Developer from Canada</h3>

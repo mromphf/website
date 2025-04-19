@@ -1,12 +1,16 @@
 <script>
+import Masthead from "@/components/Masthead.vue";
 
 export default {
-  name: 'Fiction'
+  name: 'Fiction',
+  components: { Masthead }
 }
 
 </script>
 
 <template>
+  <Masthead />
+
   <section class="content-housing">
     <div>
       <h1>Fiction</h1>

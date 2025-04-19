@@ -1,11 +1,12 @@
 <script>
 import Ticket from "@/components/Ticket.vue";
+import Masthead from "@/components/Masthead.vue";
 import titles from "@/data/titles.js";
 import products from "@/data/products.js";
 
 export default {
   name: "Landing",
-  components: {Ticket},
+  components: {Ticket, Masthead},
   data() {
     return {
       tickets: titles,
@@ -16,6 +17,8 @@ export default {
 </script>
 
 <template>
+  <Masthead />
+
   <section class="content-housing">
     <Ticket v-for="ticket in tickets"
             :product="products[ticket.product]?.title || 'No Product'"

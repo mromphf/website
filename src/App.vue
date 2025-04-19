@@ -1,13 +1,11 @@
 <script setup>
 import Menu from "@/components/Menu.vue";
-import Masthead from "@/components/Masthead.vue";
 </script>
 
 <template>
 
   <main>
     <Menu />
-    <Masthead />
     <router-view/>
   </main>
 
