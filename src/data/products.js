@@ -14,6 +14,10 @@ const products = {
     war3: {
         id: "war3",
         title: "Warcraft III"
+    },
+    fiction: {
+        id: "fiction",
+        title: "Fiction",
     }
 }
 

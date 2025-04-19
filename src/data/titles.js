@@ -20,9 +20,9 @@ const titles = [
         reference:"https://www.gamemaps.com/details/32813"
     },
     {
-        product: "Foo",
-        title: "Ticket Please",
-        reference: "#"
+        product: "fiction",
+        title: "Sample Post",
+        reference: "/story/sample-post"
     },
     {
         product: "Bar",
