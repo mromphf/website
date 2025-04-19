@@ -11,8 +11,20 @@ export default {
     return {
       tickets: titles,
       products: products,
+      productTitle(t) {
+        return products[t.product]?.title || 'Void'
+      },
+      productRef(t) {
+        const prod = products[t.product] || {};
+
+        if (prod.path === "fiction") {
+          return "fiction";
+        }
+
+        return `${prod.path}/${prod.id}`;
+      }
     }
-  }
+  },
 }
 </script>
 
@@ -21,9 +33,11 @@ export default {
 
   <section class="content-housing">
     <Ticket v-for="ticket in tickets"
-            :product="products[ticket.product]?.title || 'No Product'"
+            :product="productTitle(ticket)"
             :title="ticket.title"
-            :reference="ticket.reference"/>
+            :reference="ticket.reference"
+            :subreference="productRef(ticket)"
+    />
   </section>
 </template>
 

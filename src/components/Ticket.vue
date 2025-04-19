@@ -13,29 +13,35 @@ export default {
     reference: {
       type: String,
       default: "#"
+    },
+    subreference: {
+      type: String,
+      default: "#"
     }
   }
 }
 </script>
 
 <template>
-  <a :href="reference">
-    <article class="content-card">
-      <section>
-        <h3>{{ product }}</h3>
-      </section>
+  <article class="content-card">
+    <section>
+      <h3><a :href="subreference">{{ product }}</a></h3>
+    </section>
 
-      <section>
-        <h2>{{ title }}</h2>
-      </section>
-    </article>
-  </a>
+    <section>
+      <h2><a :href="reference">{{ title }}</a></h2>
+    </section>
+  </article>
 </template>
 
 <style scoped>
 
 a {
   text-decoration: none;
+}
+
+h2 a:hover, h3 a:hover {
+  color: yellow;
 }
 
 a:visited {
