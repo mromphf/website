@@ -3,12 +3,15 @@ import Card from "@/components/Card.vue";
 import Masthead from "@/components/Masthead.vue";
 import products from "@/data/products.js";
 
+let filtered = Object.values(products)
+    .filter(p => p.id !== 'fiction');
+
 export default {
   name: "Maps",
   components: {Card, Masthead},
   data() {
     return {
-      products: products
+      products: filtered
     }
   }
 }
@@ -18,7 +21,7 @@ export default {
   <Masthead />
 
   <section class="content-housing">
-    <Card v-for="product in Object.values(products)"
+    <Card v-for="product in products"
             :id="product.id"
             :title="product.title"
     />
