@@ -12,7 +12,7 @@ const routes = [
     { path: '/maps', component: Maps },
     { path: '/fiction', component: Fiction },
     { name: 'mapview', path: '/maps/:id', component: Product },
-    { name: 'story', path: '/story', component: Story },
+    { name: 'story', path: '/story/:slug', component: Story },
 ];
 
 const router = createRouter({

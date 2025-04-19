@@ -1,10 +1,22 @@
 <script setup>
-import Post from "@/pages/sample-post.md"
+import {computed, defineAsyncComponent} from "vue";
+import {useRoute} from "vue-router";
+
+const posts = import.meta.glob("@/pages/*.md");
+
+const route = useRoute();
+const slug = computed(() => route.params.slug);
+
+const post = computed(() => {
+  const loader = posts[`/src/pages/${slug.value}.md`];
+  return loader ? defineAsyncComponent(loader) : null;
+});
+
 </script>
 
 <template>
   <section class="content-housing single-column markdown">
-    <Post />
+    <component :is="post"></component>
   </section>
 </template>
 
