@@ -1,9 +1,17 @@
 <script>
 import Masthead from "@/components/Masthead.vue";
+import titles from "@/data/titles.js";
+
 
 export default {
   name: 'Fiction',
-  components: { Masthead }
+  components: { Masthead },
+  data() {
+    return {
+      titles: Object.values(titles)
+        .filter(title => title.product === "fiction")
+    }
+  }
 }
 
 </script>
@@ -14,9 +22,11 @@ export default {
   <section class="content-housing">
     <div>
       <h1>Fiction</h1>
+
       <ul>
-        <li><router-link to="/fiction/sample-post">Sample Story</router-link></li>
-        <li><router-link to="/fiction/foo-post">Foo Story</router-link></li>
+        <li v-for="title in titles" :key="title.id">
+          <router-link :to="title.reference">{{ title.title }}</router-link>
+        </li>
       </ul>
     </div>
   </section>

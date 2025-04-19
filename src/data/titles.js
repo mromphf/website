@@ -25,9 +25,9 @@ const titles = [
         reference: "/fiction/sample-post"
     },
     {
-        product: "Bar",
-        title: "Ticket Please",
-        reference: "#"
+        product: "fiction",
+        title: "Foo Post",
+        reference: "/fiction/foo-post"
     }
 ];
 
