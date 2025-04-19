@@ -22,7 +22,7 @@ const titles = [
     {
         product: "fiction",
         title: "Sample Post",
-        reference: "/story/sample-post"
+        reference: "/fiction/sample-post"
     },
     {
         product: "Bar",

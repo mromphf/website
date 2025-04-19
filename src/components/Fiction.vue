@@ -15,8 +15,8 @@ export default {
     <div>
       <h1>Fiction</h1>
       <ul>
-        <li><router-link to="/story/sample-post">Sample Story</router-link></li>
-        <li><router-link to="/story/foo-post">Foo Story</router-link></li>
+        <li><router-link to="/fiction/sample-post">Sample Story</router-link></li>
+        <li><router-link to="/fiction/foo-post">Foo Story</router-link></li>
       </ul>
     </div>
   </section>
