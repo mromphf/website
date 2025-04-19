@@ -1,5 +1,7 @@
 <script setup>
 import Menu from "@/components/Menu.vue";
+import Footer from "@/components/Footer.vue";
+
 </script>
 
 <template>
@@ -9,20 +11,14 @@ import Menu from "@/components/Menu.vue";
     <router-view/>
   </main>
 
-  <footer>
-    Copyright &copy; 2025 Mark Romphf
-  </footer>
+  <Footer />
 
 </template>
 
 <style scoped>
+
 main {
   min-height: 90vh;
 }
 
-footer {
-  background-color: lightcyan;
-  width: 100%;
-  text-align: center;
-}
 </style>
