@@ -1,7 +1,7 @@
 <script>
 import Ticket from "@/components/Ticket.vue";
-import titles from "@/titles.js";
-import products from "@/products.js";
+import titles from "@/data/titles.js";
+import products from "@/data/products.js";
 
 export default {
   name: "Landing",

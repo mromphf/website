@@ -1,6 +1,6 @@
 <script>
-import products from "@/products.js"
-import titles from "@/titles.js"
+import products from "@/data/products.js"
+import titles from "@/data/titles.js"
 
 
 export default {

@@ -1,6 +1,6 @@
 <script>
 import Card from "@/components/Card.vue";
-import products from "@/products.js";
+import products from "@/data/products.js";
 
 export default {
   name: "Maps",
