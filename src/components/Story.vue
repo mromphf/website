@@ -14,6 +14,10 @@ import Post from "@/pages/sample-post.md"
   column-count: 1;
 }
 
+.markdown h1 {
+  text-align: center;
+}
+
 .markdown p {
   margin: 1em;
   text-align: justify;

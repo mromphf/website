@@ -1,24 +1,24 @@
-<script setup>
-import Post from '@/pages/sample-post.md'
+<script>
+
+export default {
+  name: 'Fiction'
+}
 
 </script>
 
 <template>
-  <section class="content-housing markdown">
-    <h1>Fiction</h1>
-    <Post />
+  <section class="content-housing">
+    <div>
+      <h1>Fiction</h1>
+      <router-link to="/story">Sample Story</router-link>
+    </div>
   </section>
 </template>
 
-<style>
+<style scoped>
 
-section h1 {
+section {
   text-align: center;
-}
-
-.markdown p {
-  margin: 1rem;
-  justify-content: left;
 }
 
 </style>

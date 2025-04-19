@@ -4,6 +4,7 @@ import Fiction from '@/components/Fiction.vue';
 import Landing from '@/components/Landing.vue'
 import Maps from "@/components/Maps.vue";
 import Product from "@/components/Product.vue";
+import Story from "@/components/Story.vue";
 
 const routes = [
     { path: '/', component: Landing},
@@ -11,6 +12,7 @@ const routes = [
     { path: '/maps', component: Maps },
     { path: '/fiction', component: Fiction },
     { name: 'mapview', path: '/maps/:id', component: Product },
+    { name: 'story', path: '/story', component: Story },
 ];
 
 const router = createRouter({
