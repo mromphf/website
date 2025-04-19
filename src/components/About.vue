@@ -10,13 +10,16 @@ export default {
 <template>
   <Masthead />
 
-  <section>
-    <h1>About</h1>
-    <h3>Software Developer from Canada</h3>
-    <ul>
-      <li><a href="https://github.com/mromphf">Github</a></li>
-      <li><a href="https://www.gamemaps.com/profile/1267645">GameMaps</a></li>
-    </ul>
+  <section class="content-housing">
+    <div>
+      <h1>About</h1>
+      <h3>Software Developer from Canada</h3>
+      <ul>
+        <li><a href="https://github.com/mromphf">Github</a></li>
+        <li><a href="https://www.gamemaps.com/profile/1267645">GameMaps</a></li>
+      </ul>
+      <a href="mailto:markromphf@gmail.com">Email me</a>
+    </div>
   </section>
 </template>
 
@@ -25,11 +28,8 @@ ul {
   list-style-type: none;
 }
 
-section {
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10vh;
-  justify-content: center;
+.content-housing {
+  column-count: 1;
 }
+
 </style>
