@@ -1,17 +1,17 @@
 # website
+Copyright &copy; 2025 Mark Romphf
 
-This template should help get you started developing with Vue 3 in Vite.
+`v0.3`
 
-## Recommended IDE Setup
+My personal website. This software private property.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+This site will serve as a confluence point for content I post to the internet.
 
-## Customize configuration
+## Tooling
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+Built with `Vue.js` using `npm` for installing deps and building code, etc.
 
-## Project Setup
-
+### Install Dependencies
 ```sh
 npm install
 ```
