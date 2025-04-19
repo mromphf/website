@@ -1,13 +1,12 @@
-<script>
-export default {
-  name: "Fiction"
-}
+<script setup>
+import Post from '@/pages/sample-post.md'
+
 </script>
 
 <template>
   <section class="content-housing">
     <h1>Fiction</h1>
-    <p>Under construction</p>
+    <Post />
   </section>
 </template>
 
