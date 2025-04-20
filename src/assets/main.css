@@ -53,10 +53,6 @@ html, body, #app {
         --h1-size: 1.75rem;
         --h2-size: 1.5rem;
     }
-
-    img {
-        transform: scale(0.5);
-    }
 }
 
 /* Medium - Tablets(portrait) */

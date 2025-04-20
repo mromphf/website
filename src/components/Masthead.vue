@@ -70,16 +70,12 @@ img {
 /* Small - Phones(landscape) */
 @media(min-width: 640px) {
   img {
-    transform: scale(0.5);
+    transform: scale(0.4);
   }
 }
 
 /* Medium - Tablets(portrait) */
-@media(min-width: 768px) {
-  img {
-    transform: scale(0.6);
-  }
-}
+@media(min-width: 768px) { }
 
 /* Large - Laptops */
 @media(min-width: 1366px) {
@@ -87,6 +83,12 @@ img {
     margin-top: 0;
   }
 
+  img {
+    transform: scale(0.6);
+  }
+}
+
+@media(min-width: 1920px) {
   img {
     transform: scale(0.8);
   }
