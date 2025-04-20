@@ -46,15 +46,6 @@ html, body, #app {
     margin-bottom: 1rem;
 }
 
-/*
-.content-card:hover {
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
-    color: blue;
-    cursor: pointer;
-}
-
- */
-
 
 /* Small - Phones(landscape) */
 @media(min-width: 640px) {
