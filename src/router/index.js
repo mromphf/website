@@ -7,17 +7,23 @@ import Product from "@/components/Product.vue";
 import Story from "@/components/Story.vue";
 
 const routes = [
-    { name: 'root', path: '/', component: Landing},
-    { name: 'about', path: '/about', component: About },
-    { name: 'maps', path: '/maps', component: Maps },
-    { name: 'fiction', path: '/fiction', component: Fiction },
-    { name: 'mapview', path: '/maps/:id', component: Product },
-    { name: 'story', path: '/fiction/:slug', component: Story },
+    { name: 'root',path: '/', component: Landing, meta: {title: 'Mike Romeo'} },
+    { name: 'about', path: '/about', component: About , meta: {title: 'About | Mike Romeo'}},
+    { name: 'maps', path: '/maps', component: Maps , meta: { title: 'Maps & Mods | Mike Romeo' }},
+    { name: 'fiction', path: '/fiction', component: Fiction, meta: {title: 'Fiction | Mike Romeo' } },
+    { name: 'mapview', path: '/maps/:id', component: Product , meta: {title: 'Map | Mike Romeo' } },
+    { name: 'story', path: '/fiction/:slug', component: Story, meta: { title: 'Story | Mike Romeo' }}
 ];
 
 const router = createRouter({
     history: createWebHistory(),
     routes: routes
 });
+
+router.beforeEach((to, from, next) => {
+    const def = "Mike Romeo";
+    document.title = to.meta.title || def;
+    next();
+})
 
 export default router;
