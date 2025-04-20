@@ -6,7 +6,14 @@ export default {
 
 <template>
   <footer>
-    Copyright &copy; 2025 Mark Romphf
+    <section></section>
+
+    <section>
+      Copyright &copy; 2025 Mark Romphf
+    </section>
+
+    <section>v0.5</section>
+
   </footer>
 </template>
 
@@ -14,8 +21,11 @@ export default {
 
 footer {
   background-color: lightcyan;
-  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: auto;
   text-align: center;
+  width: 80%;
 }
 
 </style>
