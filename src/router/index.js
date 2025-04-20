@@ -7,10 +7,10 @@ import Product from "@/components/Product.vue";
 import Story from "@/components/Story.vue";
 
 const routes = [
-    { path: '/', component: Landing},
-    { path: '/about', component: About },
-    { path: '/maps', component: Maps },
-    { path: '/fiction', component: Fiction },
+    { name: 'root', path: '/', component: Landing},
+    { name: 'about', path: '/about', component: About },
+    { name: 'maps', path: '/maps', component: Maps },
+    { name: 'fiction', path: '/fiction', component: Fiction },
     { name: 'mapview', path: '/maps/:id', component: Product },
     { name: 'story', path: '/fiction/:slug', component: Story },
 ];
