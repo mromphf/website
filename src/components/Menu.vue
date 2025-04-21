@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <nav>
+  <nav aria-label="Navigation Menu">
     <ul>
       <li><router-link to="/">Home</router-link></li>
       <li><router-link to="/fiction">Fiction</router-link></li>

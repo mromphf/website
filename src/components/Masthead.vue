@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <header>
+  <header aria-label="Header">
     <section class="left">
       <img src="/src/assets/Teddy2.webp" alt="Mike Romeo"/>
     </section>

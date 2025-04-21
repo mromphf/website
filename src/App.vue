@@ -6,7 +6,7 @@ import Footer from "@/components/Footer.vue";
 
 <template>
 
-  <main>
+  <main aria-label="Page Body">
     <Menu />
     <router-view/>
   </main>

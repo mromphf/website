@@ -15,7 +15,7 @@ const post = computed(() => {
 </script>
 
 <template>
-  <section class="content-housing single-column markdown">
+  <section class="content-housing single-column markdown" aria-label="Story Text">
     <component :is="post"></component>
   </section>
 </template>

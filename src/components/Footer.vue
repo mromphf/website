@@ -5,14 +5,14 @@ export default {
 </script>
 
 <template>
-  <footer>
+  <footer aria-label="Footer">
     <section></section>
 
-    <section>
+    <section aria-label="Copyright">
       Copyright &copy; 2025 Mark Romphf
     </section>
 
-    <section>v0.5</section>
+    <section aria-label="Site Version">v0.5</section>
 
   </footer>
 </template>

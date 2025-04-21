@@ -31,7 +31,7 @@ export default {
 <template>
   <Masthead />
 
-  <section class="content-housing">
+  <section class="content-housing" aria-label="Content">
     <Ticket v-for="ticket in tickets"
             :product="productTitle(ticket)"
             :title="ticket.title"
