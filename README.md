@@ -1,7 +1,7 @@
 # website
 Copyright &copy; 2025 Mark Romphf
 
-`v0.5`
+`v0.6`
 
 My personal website. This software private property.
 

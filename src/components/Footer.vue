@@ -12,7 +12,7 @@ export default {
       Copyright &copy; 2025 Mark Romphf
     </section>
 
-    <section aria-label="Site Version">v0.5</section>
+    <section aria-label="Site Version">v0.6</section>
 
   </footer>
 </template>
