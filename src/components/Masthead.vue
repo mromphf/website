@@ -26,7 +26,7 @@ header {
   justify-content: center;
   background-color: beige;
   width: 100%;
-  height: 18vh;
+  height: 15rem;
 }
 
 h1, h2 {
