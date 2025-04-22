@@ -5,6 +5,7 @@ import Landing from '@/components/Landing.vue'
 import Maps from "@/components/Maps.vue";
 import Product from "@/components/Product.vue";
 import Story from "@/components/Story.vue";
+import NotFound from "@/components/NotFound.vue";
 
 const routes = [
     { name: 'root',path: '/', component: Landing, meta: {title: 'Mike Romeo'} },
@@ -12,7 +13,8 @@ const routes = [
     { name: 'maps', path: '/maps', component: Maps , meta: { title: 'Maps & Mods | Mike Romeo' }},
     { name: 'fiction', path: '/fiction', component: Fiction, meta: {title: 'Fiction | Mike Romeo' } },
     { name: 'mapview', path: '/maps/:id', component: Product , meta: {title: 'Map | Mike Romeo' } },
-    { name: 'story', path: '/fiction/:slug', component: Story, meta: { title: 'Story | Mike Romeo' }}
+    { name: 'story', path: '/fiction/:slug', component: Story, meta: { title: 'Story | Mike Romeo' }},
+    { name: 'NotFound', path: '/:pathMatch(.*)*', component: NotFound, meta: { title: 'Not Found | Mike Romeo'} },
 ];
 
 const router = createRouter({
