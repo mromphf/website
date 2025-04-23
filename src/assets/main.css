@@ -39,7 +39,6 @@ a:visited {
 }
 
 .content-housing {
-    border: 1px solid red;
     column-count: 1;
     column-gap: 1rem;
     margin-left: auto;

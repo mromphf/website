@@ -20,7 +20,6 @@ export default {
 <style scoped>
 
 footer {
-  background-color: lightcyan;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin: auto;

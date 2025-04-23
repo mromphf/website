@@ -57,12 +57,7 @@ img {
   transform: scale(0.3);
 }
 
-.right {
-  border: 1px solid blue;
-}
-
 .left {
-  border: 1px solid orange;
   overflow: visible;
   position: relative;
 }
