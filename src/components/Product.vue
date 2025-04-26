@@ -32,13 +32,28 @@ export default {
 
 <style scoped>
 
-ul {
-  list-style-type: none;
-}
 
 .content-housing {
   column-count: 1;
   text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+section {
+  column-count: 1;
+  text-align: center;
+}
+
+li {
+  margin: 1rem;
+  font-size: 1.3rem;
+}
+
+a:hover {
+  color: #555555;
 }
 
 </style>
