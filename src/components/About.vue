@@ -10,26 +10,45 @@ export default {
 <template>
   <Masthead />
 
-  <section class="content-housing">
+  <section class="content-housing" aria-label="About">
     <div>
-      <h1>About</h1>
-      <h3>Software Developer from Canada</h3>
+      <h2>Software Developer from Canada</h2>
       <ul>
         <li><a href="https://github.com/mromphf">Github</a></li>
         <li><a href="https://www.gamemaps.com/profile/1267645">GameMaps</a></li>
+        <li><a href="mailto:markromphf@gmail.com">Email me</a></li>
       </ul>
-      <a href="mailto:markromphf@gmail.com">Email me</a>
     </div>
   </section>
 </template>
 
 <style scoped>
 ul {
+  margin-top: 1rem;
   list-style-type: none;
+  display: flex;
+  gap: 2rem;
 }
 
 .content-housing {
   column-count: 1;
+  width: 90%;
+}
+
+a {
+  font-size: 1.1rem;
+}
+
+@media(min-width: 768px) {
+  .content-housing {
+    width: 70%;
+  }
+}
+
+@media(min-width: 2550px) {
+  .content-housing {
+    width: 40%;
+  }
 }
 
 </style>
