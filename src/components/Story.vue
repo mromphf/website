@@ -36,4 +36,16 @@ const post = computed(() => {
   text-align: justify;
 }
 
+@media(min-width: 1366px) {
+  .content-housing {
+    width: 60%;
+  }
+}
+
+@media(min-width: 2560px){
+  .content-housing {
+    width: 40%;
+  }
+}
+
 </style>
