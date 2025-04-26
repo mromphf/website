@@ -43,17 +43,9 @@ section {
   text-align: center;
 }
 
-ul {
-  list-style-type: none;
-}
-
 li {
   margin: 1rem;
   font-size: 1.3rem;
-}
-
-a {
-  text-decoration: none;
 }
 
 a:hover {
