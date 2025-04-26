@@ -34,6 +34,10 @@ export default {
 
 <style scoped>
 
+h1 {
+  font-size: 2em;
+}
+
 section {
   column-count: 1;
   text-align: center;
@@ -41,6 +45,19 @@ section {
 
 ul {
   list-style-type: none;
+}
+
+li {
+  margin: 1rem;
+  font-size: 1.3rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #555555;
 }
 
 </style>
