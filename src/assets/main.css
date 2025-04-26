@@ -59,8 +59,7 @@ a:visited {
 
 .content-card {
     align-items: center;
-    background-color: aquamarine;
-    border: 1px solid blue;
+    border: 1px solid black;
     display: flex;
     height: 5rem;
     justify-content: center;

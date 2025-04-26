@@ -25,11 +25,11 @@ export default {
 <template>
   <article class="content-card">
     <section>
-      <h3><a :href="subreference">{{ product }}</a></h3>
+      <a :href="subreference">{{ product }}</a>
     </section>
 
     <section>
-      <h2><a :href="reference">{{ title }}</a></h2>
+      <a :href="reference">{{ title }}</a>
     </section>
   </article>
 </template>
@@ -38,32 +38,20 @@ export default {
 
 a {
   text-decoration: none;
-}
-
-h2 a:hover, h3 a:hover {
-  color: yellow;
-}
-
-a:visited {
-  color: blue
-}
-
-.content-card {
-  border: none;
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-}
-
-section {
-  border: 1px solid blue;
-}
-
-h2, h3 {
   line-height: 5rem;
   overflow: hidden;
   text-align: center;
-  text-overflow: ellipsis;
+  text-overflow: clip;
   white-space: nowrap;
+}
+
+a:hover{
+  color: #555555;
+}
+
+.content-card {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
 }
 
 </style>
