@@ -20,32 +20,42 @@ nav {
   align-items: center;
   display: flex;
   height: 5vh;
-  width: 100%;
+  width: 95%;
+  margin-left: auto;
 }
 
 ul {
   align-items: center;
   display: flex;
-  gap: 2.5rem;
+  gap: 1.2rem;
   height: 100%;
   list-style-type: none;
   padding: 0;
   width: 100%;
 }
 
-li {
-  font-size: 2rem;
-}
-
 a {
   text-decoration: none;
+  font-size: 1.2rem;
 }
+
+a:hover {
+  color: #555555;
+}
+
+
+/* Medium - Tablets(portrait) */
+@media(min-width: 768px) {
+  a {
+    font-size: 1.8rem;
+  }
+}
+
 
 /* Large - Laptops */
 @media(min-width: 1366px) {
   nav {
     justify-content: flex-end;
-    margin-left: auto;
     margin-top: 5vh;
   }
 
