@@ -54,7 +54,7 @@ section {
 img {
   border-radius: 20rem;
   position: absolute;
-  transform: scale(0.4);
+  transform: scale(0.425);
 }
 
 .left {
