@@ -20,7 +20,6 @@ export default {
 <style scoped>
 
 header {
-  margin-top: 3.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,6 +31,7 @@ header {
 h1, h2 {
   text-align: center;
   line-height: var(--line-height);
+  color: black;
 }
 
 h1 {
@@ -66,6 +66,10 @@ img {
 @media(min-width: 640px) {
   img {
     transform: scale(0.5);
+  }
+
+  header {
+    margin-top: 3rem;
   }
 }
 

@@ -40,7 +40,7 @@ body {
     font-family: "Lora", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
-a {
+h1, h2, a {
     color: var(--text-color);
 }
 
@@ -59,7 +59,8 @@ a:visited {
 
 .content-card {
     align-items: center;
-    border: 1px solid black;
+    border: 1px solid;
+    border-color: var(--text-color);
     display: flex;
     height: 5rem;
     justify-content: center;
@@ -71,15 +72,7 @@ a:visited {
 @media(prefers-color-scheme: dark) {
     :root {
         --background-color: #232323;
-        --text-color: #ffffff;
-    }
-
-    header h1, h2 {
-        color: black;
-    }
-
-    a {
-        color: white;
+        --text-color: #f5f5f5;
     }
 }
 
