@@ -19,9 +19,8 @@ export default {
 nav {
   align-items: center;
   display: flex;
-  height: 5vh;
-  width: 95%;
   margin-left: auto;
+  padding: 0.5rem 1rem;
 }
 
 ul {
@@ -36,7 +35,7 @@ ul {
 
 a {
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.1em;
 }
 
 a:hover {
