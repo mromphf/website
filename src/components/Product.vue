@@ -1,10 +1,12 @@
 <script>
 import products from "@/data/products.js"
 import titles from "@/data/titles.js"
+import Masthead from "@/components/Masthead.vue"
 
 
 export default {
   name: "ProductView",
+  components: { Masthead },
   data() {
     const id = this.$route.params.id;
 
@@ -17,6 +19,8 @@ export default {
 </script>
 
 <template>
+  <Masthead />
+
   <section class="content-housing">
     <h1>{{ product.title }}</h1>
 
