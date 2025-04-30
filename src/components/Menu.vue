@@ -52,7 +52,7 @@ a:hover {
 
 
 /* Large - Laptops */
-@media(min-width: 1366px) {
+@media(min-width: 1280px) {
   nav {
     justify-content: flex-end;
     margin-top: 5vh;

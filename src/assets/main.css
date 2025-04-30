@@ -93,16 +93,17 @@ a:visited {
     }
 }
 
-@media(min-width: 1366px) {
+@media(min-width: 1280px) {
     .content-housing {
         column-count: 2;
-        margin-top: 6rem;
+        margin-top: 3rem;
         width: 90%;
     }
 }
 
 @media(min-width: 1920px) {
     .content-housing {
+        margin-top: 5rem;
         width: 75%;
     }
 }
