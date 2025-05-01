@@ -25,11 +25,11 @@ export default {
 <template>
   <article class="content-card">
     <section>
-      <a :href="subreference">{{ product }}</a>
+      <router-link :to="subreference">{{ product }}</router-link>
     </section>
 
     <section>
-      <a :href="reference">{{ title }}</a>
+      <router-link :to="reference">{{ title }}</router-link>
     </section>
   </article>
 </template>
