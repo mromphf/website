@@ -12,7 +12,8 @@
     "host": "vite --host",
     "build": "vite build",
     "preview": "vite preview",
-    "serve": "vite preview --host"
+    "serve": "vite preview --host",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "vue": "^3.5.13",
