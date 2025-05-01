@@ -20,9 +20,34 @@ const titles = [
         reference:"https://www.gamemaps.com/details/32813"
     },
     {
+        product: "war2",
+        title: "Valor",
+        reference:"https://www.gamemaps.com/details/32795"
+    },
+    {
         product: "fiction",
         title: "Disturbing the Peace",
         reference: "/fiction/disturbing-the-peace"
+    },
+    {
+        product: "war2",
+        title: "Alterac Reprise",
+        reference: "https://www.gamemaps.com/details/32792"
+    },
+    {
+        product: "war2",
+        title: "Snowblind",
+        reference: "https://www.gamemaps.com/details/31907"
+    },
+    {
+        product: "war2",
+        title: "Laughing Skulls",
+        reference: "https://www.gamemaps.com/details/32796"
+    },
+    {
+        product: "war2",
+        title: "The Invasion",
+        reference: "https://www.gamemaps.com/details/31910"
     }
 ];
 
