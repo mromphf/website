@@ -29,7 +29,8 @@ export default {
     </section>
 
     <section>
-      <a :href="reference">{{ title }}</a>
+      <router-link v-if="subreference === 'fiction'" :to="reference">{{ title }}</router-link>
+      <a v-if="subreference !== 'fiction'" :href="reference">{{ title }}</a>
     </section>
   </article>
 </template>
