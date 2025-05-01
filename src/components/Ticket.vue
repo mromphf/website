@@ -29,7 +29,7 @@ export default {
     </section>
 
     <section>
-      <router-link :to="reference">{{ title }}</router-link>
+      <a :href="reference">{{ title }}</a>
     </section>
   </article>
 </template>
