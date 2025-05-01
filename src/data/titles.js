@@ -21,13 +21,8 @@ const titles = [
     },
     {
         product: "fiction",
-        title: "Sample Post",
-        reference: "/fiction/sample-post"
-    },
-    {
-        product: "fiction",
-        title: "Foo Post",
-        reference: "/fiction/foo-post"
+        title: "Disturbing the Peace",
+        reference: "/fiction/disturbing-the-peace"
     }
 ];
 

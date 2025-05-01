@@ -32,11 +32,28 @@ const post = computed(() => {
 }
 
 .markdown p {
-  margin: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
   text-align: justify;
+  line-height: 1.75em;
+  text-indent: 1.5em;
 }
 
-@media(min-width: 1366px) {
+.markdown a {
+  color: blue;
+}
+
+.markdown hr {
+  margin: 2em auto;
+  width: 25%;
+}
+
+.markdown .center {
+  text-align: center;
+  margin: 0.5em;
+}
+
+@media(min-width: 1280px) {
   .content-housing {
     width: 60%;
   }
