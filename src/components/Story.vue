@@ -43,6 +43,12 @@ const post = computed(() => {
   color: blue;
 }
 
+@media(prefers-color-scheme: dark) {
+  .markdown a {
+    color: #78c8b5;
+  }
+}
+
 .markdown hr {
   margin: 2em auto;
   width: 25%;
