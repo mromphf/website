@@ -12,7 +12,9 @@ export default {
 
     return {
       product: products[id],
-      titles: titles.filter(title => title.product === id),
+      titles: titles
+          .filter(title => title.product === id)
+          .sort((a, b) => a.title.localeCompare(b.title)),
     }
   }
 }
