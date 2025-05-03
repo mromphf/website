@@ -28,4 +28,10 @@ footer {
   font-size: 0.8em;
 }
 
+@media(min-width: 1280px) {
+  footer {
+    font-size: 1em;
+  }
+}
+
 </style>
