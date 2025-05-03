@@ -31,6 +31,7 @@ export default {
     <ul>
       <li v-for="title in titles">
         <a :href="title.reference">{{ title.title }}</a>
+        <p class="date">{{ title.date ?? "" }}</p>
       </li>
     </ul>
   </section>
