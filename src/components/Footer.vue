@@ -21,10 +21,11 @@ export default {
 
 footer {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 4fr 1fr;
   margin: auto;
   text-align: center;
   width: 80%;
+  font-size: 0.8em;
 }
 
 </style>
