@@ -26,6 +26,7 @@ export default {
       <ul>
         <li v-for="title in titles" :key="title.id">
           <router-link :to="title.reference">{{ title.title }}</router-link>
+          <p class="date">{{ title.date }}</p>
         </li>
       </ul>
     </div>
