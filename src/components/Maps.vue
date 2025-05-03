@@ -30,10 +30,6 @@ export default {
 
 <style scoped>
 
-.content-housing {
-  max-height: none;
-}
-
 Card {
   break-inside: avoid;
   display: block;

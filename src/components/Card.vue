@@ -27,4 +27,14 @@ export default {
   height: 20rem;
 }
 
+.content-card:hover {
+  border: 1px solid teal;
+  box-shadow: 1px 1px 2px teal;
+  background-color: beige;
+}
+
+.content-card:hover h2 {
+  color: teal;
+}
+
 </style>
