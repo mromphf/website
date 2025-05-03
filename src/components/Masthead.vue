@@ -8,6 +8,7 @@ export default {
   <header aria-label="Header">
     <section class="left">
       <img src="/src/assets/Teddy2.webp" alt="Mike Romeo"/>
+      <img class="headshot" src="/src/assets/headshot.webp" alt="Headshot"/>
     </section>
     <section class="right">
       <h2>Mark</h2>
@@ -55,6 +56,12 @@ img {
   border-radius: 20rem;
   position: absolute;
   transform: scale(0.425);
+  z-index: 0;
+}
+
+.headshot {
+  transform: scale(0.15) translate(27em, 27em);
+  z-index: 1;
 }
 
 .left {
@@ -74,16 +81,24 @@ img {
 }
 
 /* Medium - Tablets(portrait) */
-@media(min-width: 768px) { }
+@media(min-width: 768px) {
+  .headshot {
+    transform: scale(0.175) translate(29em, 29em);
+  }
+}
 
 /* Large - Laptops */
-@media(min-width: 1366px) {
+@media(min-width: 1280px) {
   header {
     margin-top: 0;
   }
 
   img {
     transform: scale(0.6);
+  }
+
+  .headshot {
+    transform: scale(0.2) translate(29em, 29em);
   }
 }
 
@@ -96,6 +111,10 @@ img {
 @media(min-width: 2550px) {
   section {
     flex: 0 0 30%;
+  }
+
+  .headshot {
+    transform: scale(0.3) translate(30em, 25em);
   }
 }
 
