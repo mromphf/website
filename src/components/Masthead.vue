@@ -75,6 +75,10 @@ img {
     transform: scale(0.5);
   }
 
+  .headshot {
+    transform: scale(0.15) translate(30em, 30em);
+  }
+
   header {
     margin-top: 3rem;
   }
@@ -106,15 +110,15 @@ img {
   img {
     transform: scale(0.8);
   }
+
+  .headshot {
+    transform: scale(0.3) translate(30em, 25em);
+  }
 }
 
 @media(min-width: 2550px) {
   section {
     flex: 0 0 30%;
-  }
-
-  .headshot {
-    transform: scale(0.3) translate(30em, 25em);
   }
 }
 
