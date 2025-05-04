@@ -44,6 +44,10 @@ h1, h2, a {
     color: var(--text-color);
 }
 
+a:hover {
+    color: #555555;
+}
+
 a:visited {
     color: var(--text-color);
 }

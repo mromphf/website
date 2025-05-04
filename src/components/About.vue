@@ -36,7 +36,11 @@ ul {
 }
 
 a {
-  font-size: 1.1rem;
+  font-size: 1.3em;
+}
+
+a:hover {
+  color: #555555;
 }
 
 @media(min-width: 768px) {
