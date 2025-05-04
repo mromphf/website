@@ -37,16 +37,7 @@ export default {
 
 <style scoped>
 
-a {
-  text-decoration: none;
-  line-height: 5rem;
-  overflow: hidden;
-  text-align: center;
-  text-overflow: clip;
-  white-space: nowrap;
-}
-
-a:hover{
+a:hover {
   color: #555555;
 }
 
