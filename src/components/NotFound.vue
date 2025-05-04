@@ -14,7 +14,15 @@ export default {
 
 <style scoped>
 
-h1, p {
+
+a {
+  color: blue;
+}
+
+
+.content-housing {
+  column-count: 1;
+  width: 50%;
   text-align: center;
 }
 
