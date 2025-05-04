@@ -3,7 +3,7 @@ Copyright &copy; 2025 Mark Romphf
 
 `v1.01`
 
-My personal website. This software private property.
+My [personal website](https://mikeromeo.ca). This software private property.
 
 This site will serve as a confluence point for content I post to the internet.
 
