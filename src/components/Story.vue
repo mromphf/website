@@ -27,6 +27,10 @@ const post = computed(() => {
   column-count: 1;
 }
 
+.markdown {
+  margin-top: 0;
+}
+
 .markdown h1 {
   text-align: center;
 }
