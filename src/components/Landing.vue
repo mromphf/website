@@ -37,6 +37,7 @@ export default {
             :title="ticket.title"
             :reference="ticket.reference"
             :subreference="productRef(ticket)"
+            :internal="ticket.internal ?? false"
     />
   </section>
 </template>

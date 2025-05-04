@@ -33,7 +33,8 @@ const titles = [
         product: "fiction",
         title: "Disturbing the Peace",
         reference: "/fiction/disturbing-the-peace",
-        date: "Oct 2023"
+        date: "Oct 2023",
+        internal: true
     },
     {
         product: "war2",

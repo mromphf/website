@@ -14,6 +14,10 @@ export default {
       type: String,
       default: "#"
     },
+    internal: {
+      type: Boolean,
+      default: false
+    },
     subreference: {
       type: String,
       default: "#"
@@ -29,8 +33,8 @@ export default {
     </section>
 
     <section>
-      <router-link v-if="subreference === 'fiction'" :to="reference">{{ title }}</router-link>
-      <a v-if="subreference !== 'fiction'" :href="reference">{{ title }}</a>
+      <router-link v-if="internal" :to="reference">{{ title }}</router-link>
+      <a v-if="!internal" :href="reference">{{ title }}</a>
     </section>
   </article>
 </template>
