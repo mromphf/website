@@ -40,6 +40,10 @@ a {
   font-size: 1.1em;
 }
 
+a:hover {
+  color: #555555;
+}
+
 
 /* Medium - Tablets(portrait) */
 @media(min-width: 768px) {
