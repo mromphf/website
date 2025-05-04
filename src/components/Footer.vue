@@ -31,6 +31,15 @@ footer {
 @media(min-width: 1280px) {
   footer {
     font-size: 1em;
+    width: 60%;
+  }
+}
+
+
+@media(min-width: 1920px) {
+  footer {
+    font-size: 1em;
+    width: 40%;
   }
 }
 
