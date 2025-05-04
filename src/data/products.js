@@ -2,7 +2,7 @@ const products = {
     nwn: {
         id: "nwn",
         path: "maps",
-        title: "NWN: EE"
+        title: "Neverwinter Nights"
     },
     war2: {
         id: "war2",

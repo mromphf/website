@@ -28,7 +28,7 @@ export default {
 
 <template>
   <article class="content-card">
-    <section>
+    <section id="subreference">
       <router-link :to="subreference">{{ product }}</router-link>
     </section>
 
@@ -47,7 +47,35 @@ a:hover {
 
 .content-card {
   display: grid;
-  grid-template-columns: 2fr 3fr;
+  column-count: 1;
+  font-size: 1.2em;
+  height: 7.5rem;
+  padding: 0.75em;
+}
+
+#subreference {
+  order: 1;
+  font-size: 0.8em;
+}
+
+
+
+/* Small - Phones(landscape) */
+@media(min-width: 640px) {
+  :root {
+    --h1-size: 1.75rem;
+    --h2-size: 1.5rem;
+  }
+
+  .content-card {
+    column-count: 2;
+    grid-template-columns: 2fr 3fr;
+    height: 5rem;
+  }
+
+  #subreference {
+    order: 0;
+  }
 }
 
 </style>
