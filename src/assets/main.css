@@ -73,6 +73,10 @@ a:visited {
     color: gray;
 }
 
+.hidden {
+    display: none;
+}
+
 
 @media(prefers-color-scheme: dark) {
     :root {

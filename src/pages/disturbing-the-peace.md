@@ -1,7 +1,9 @@
 # Disturbing the Peace
-<p class="center">By Mark Romphf</p>
-<p class="center date">Oct 2023</p>
-<p class="center">As published in <a href="https://skwriter.com/events-and-workshops/spring-volume-14-launch-saskatoon">spring vol.14</a></p>
+<section class="front-matter">
+<p>by Mark Romphf</p>
+<p class="date">Oct 2023</p>
+<p>As published in <a href="https://skwriter.com/events-and-workshops/spring-volume-14-launch-saskatoon">spring vol.14</a></p>
+</section>
 
 On Friday evening Chuck Boulevard took two aspirin and sat down to read. Then the noise began. Seconds after he’d thrown the recliner back and spread a blanket over his lap, elephant feet started thumping the ceiling. His chair trembled. His steaming teacup rattled on its coaster.
 
@@ -444,4 +446,4 @@ A birthday card waited inside: Happy birthday, Dad! Love Brittany and Kaylee.
 
 He assessed his gift. Soundproof headphones.
 
-Copyright &copy; 2024 Mark Romphf
+<p class="hidden">Copyright &copy; 2024 Mark Romphf</p>

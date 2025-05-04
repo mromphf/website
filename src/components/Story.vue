@@ -58,10 +58,15 @@ const post = computed(() => {
   width: 25%;
 }
 
-.markdown .center {
+.markdown .front-matter p {
+  margin: 0;
   text-align: center;
-  margin: 0.5em;
 }
+
+.markdown .front-matter {
+  margin-bottom: 1em;
+}
+
 
 @media(min-width: 1280px) {
   .content-housing {
