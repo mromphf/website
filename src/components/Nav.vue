@@ -1,11 +1,39 @@
 <script>
+
 export default {
   name: "Nav",
   data() {
     return {
       visible: false
     }
-  }
+  },
+  methods: {
+    handleExternalClick(event) {
+      const menu = this.$refs.mobileMenu;
+      const button = this.$refs.toggleButton;
+
+      if (this.visible && !menu?.contains(event.target) && !button?.contains(event.target)) {
+        this.visible = false;
+      }
+    },
+  },
+  watch: {
+    visible(val) {
+      if (val) {
+        document.addEventListener("click", this.handleExternalClick);
+      } else {
+        document.removeEventListener("click", this.handleExternalClick);
+      }
+    },
+  },
+  mounted() {
+    this.$watch('$route', () => {
+      this.visible = false;
+    })
+  },
+  beforeUnmount() {
+    document.removeEventListener("click", this.handleExternalClick);
+  },
 }
 </script>
 
@@ -18,10 +46,10 @@ export default {
       <li><router-link to="/about">About</router-link></li>
     </ul>
 
-    <button @click="visible = !visible">Menu</button>
+    <button ref="toggleButton" @click="visible = !visible">Menu</button>
   </nav>
 
-  <nav v-if="visible" class="mobile">
+  <nav v-if="visible" class="mobile" ref="mobileMenu">
     <ul>
       <li><router-link to="/">Home</router-link></li>
       <li><router-link to="/fiction">Fiction</router-link></li>
