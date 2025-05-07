@@ -78,10 +78,6 @@ img {
   .headshot {
     transform: scale(0.15) translate(30em, 30em);
   }
-
-  header {
-    margin-top: 3rem;
-  }
 }
 
 /* Medium - Tablets(portrait) */
