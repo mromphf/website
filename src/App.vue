@@ -1,5 +1,5 @@
 <script setup>
-import Menu from "@/components/Menu.vue";
+import Nav from "@/components/Nav.vue";
 import Footer from "@/components/Footer.vue";
 
 </script>
@@ -7,7 +7,7 @@ import Footer from "@/components/Footer.vue";
 <template>
 
   <main aria-label="Page Body">
-    <Menu />
+    <Nav />
     <router-view/>
   </main>
 
