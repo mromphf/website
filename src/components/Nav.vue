@@ -1,9 +1,6 @@
 <script>
-import MobileNav from "@/components/MobileNav.vue";
-
 export default {
   name: "Nav",
-  components: {MobileNav},
   data() {
     return {
       visible: false
