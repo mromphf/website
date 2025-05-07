@@ -12,7 +12,10 @@ export default {
       const menu = this.$refs.mobileMenu;
       const button = this.$refs.toggleButton;
 
-      if (this.visible && !menu?.contains(event.target) && !button?.contains(event.target)) {
+      if (this.visible &&
+          !menu?.contains(event.target) &&
+          !button?.contains(event.target)) {
+
         this.visible = false;
       }
     },
@@ -20,9 +23,11 @@ export default {
   watch: {
     visible(val) {
       if (val) {
-        document.addEventListener("click", this.handleExternalClick);
+        document.addEventListener(
+            "click", this.handleExternalClick);
       } else {
-        document.removeEventListener("click", this.handleExternalClick);
+        document.removeEventListener(
+            "click", this.handleExternalClick);
       }
     },
   },
@@ -32,7 +37,8 @@ export default {
     })
   },
   beforeUnmount() {
-    document.removeEventListener("click", this.handleExternalClick);
+    document.removeEventListener("click",
+        this.handleExternalClick);
   },
 }
 </script>
@@ -70,13 +76,24 @@ nav {
 }
 
 button {
+  background-color: var(--background-color);
+  border-color: var(--text-color);
+  color: var(--text-color);
   margin-left: auto;
+  border-style: solid;
+  font-family: "Lora", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: beige;
+  color: black;
 }
 
 .mobile {
-  background-color: gray;
+  background-color: var(--background-color);
   position: absolute;
-  top: 4rem;
+  top: 4.35rem;
   right: 0;
   z-index: 5;
   font-size: 1.3em;
@@ -102,7 +119,7 @@ ul {
 
 a, button {
   text-decoration: none;
-  font-size: 1.1em;
+  font-size: 1.3em;
 }
 
 a:hover {
@@ -110,7 +127,7 @@ a:hover {
 }
 
 button {
-  width: 6rem;
+  width: 7rem;
   height: 3rem;
 }
 
