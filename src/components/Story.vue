@@ -6,7 +6,7 @@ import NotFound from "@/components/NotFound.vue";
 const posts = import.meta.glob("@/pages/*.md");
 
 const route = useRoute();
-const slug = computed(() => route.params.slug);
+const slug = computed(() => route.params["slug"]);
 
 const post = computed(() => {
   const loader = posts[`/src/pages/${slug.value}.md`];

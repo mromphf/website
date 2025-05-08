@@ -25,7 +25,7 @@ const router = createRouter({
 
 router.beforeEach((to, from, next) => {
     const def = "Mike Romeo";
-    document.title = to.meta.title || def;
+    document.title = to.meta['title'] || def;
     next();
 })
 
