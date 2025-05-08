@@ -16,55 +16,15 @@ const post = computed(() => {
 </script>
 
 <template>
-  <section class="content-housing single-column markdown" aria-label="Story Text">
+  <article class="content-housing single-column markdown" aria-label="Story Text">
     <component :is="post"></component>
-  </section>
+  </article >
 </template>
 
 <style>
 
 .single-column {
   column-count: 1;
-}
-
-.markdown {
-  margin-top: 0;
-}
-
-.markdown h1 {
-  text-align: center;
-}
-
-.markdown p {
-  margin-left: 1em;
-  margin-right: 1em;
-  text-align: justify;
-  line-height: 1.75em;
-  text-indent: 1.5em;
-}
-
-.markdown a {
-  color: blue;
-}
-
-@media(prefers-color-scheme: dark) {
-  .markdown a {
-    color: #78c8b5;
-  }
-}
-
-.markdown hr {
-  margin: 2em auto;
-  width: 25%;
-}
-
-.markdown .front-matter p {
-  margin: 0;
-  text-align: center;
-}
-
-.markdown .front-matter {
-  margin-bottom: 1em;
 }
 
 

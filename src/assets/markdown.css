@@ -1,0 +1,42 @@
+.markdown {
+    margin-top: 0;
+    font-size: 1.1em;
+}
+
+.markdown h1 {
+    text-align: center;
+}
+
+.markdown p {
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: justify;
+    line-height: 1.75em;
+    text-indent: 1.5em;
+}
+
+.markdown a {
+    color: blue;
+}
+
+.markdown hr {
+    margin: 2em auto;
+    width: 25%;
+}
+
+.markdown .front-matter p {
+    margin: 0;
+    text-align: center;
+}
+
+.markdown .front-matter {
+    margin-bottom: 1em;
+}
+
+
+
+@media(prefers-color-scheme: dark) {
+    .markdown a {
+        color: #78c8b5;
+    }
+}
