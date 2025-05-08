@@ -1,5 +1,5 @@
 # Disturbing the Peace
-<section class="front-matter">
+<section class="front-matter" aria-label="Front Matter">
 <p>by Mark Romphf</p>
 <p class="date">Oct 2023</p>
 <p>As published in <a href="https://skwriter.com/events-and-workshops/spring-volume-14-launch-saskatoon">spring vol.14</a></p>
