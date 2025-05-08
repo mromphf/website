@@ -14,6 +14,7 @@ const routes = [
     { name: 'fiction', path: '/fiction', component: Fiction, meta: {title: 'Fiction | Mike Romeo' } },
     { name: 'mapview', path: '/maps/:id', component: Product , meta: {title: 'Maps | Mike Romeo' } },
     { name: 'story', path: '/fiction/:slug', component: Story, meta: { title: 'Story | Mike Romeo' }},
+    { name: 'post', path: '/blog/:slug', component: Story, meta: { title: 'Blog | Mike Romeo' }},
     { name: 'NotFound', path: '/:pathMatch(.*)*', component: NotFound, meta: { title: 'Not Found | Mike Romeo'} },
 ];
 
