@@ -69,9 +69,9 @@ export default {
 nav {
   align-items: center;
   display: flex;
-  margin-left: auto;
+  justify-content: flex-end;
+  margin-right: auto;
   padding: 0.5rem 1rem;
-  margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
 
@@ -110,7 +110,6 @@ ul {
   height: 100%;
   list-style-type: none;
   padding: 0;
-  width: 100%;
 }
 
 .mobile ul {
