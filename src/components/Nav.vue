@@ -53,10 +53,8 @@ export default {
     </ul>
 
     <button ref="toggleButton" @click="visible = !visible">Menu</button>
-  </nav>
 
-  <nav v-if="visible" class="mobile" ref="mobileMenu">
-    <ul>
+    <ul v-if="visible" class="mobile" ref="mobileMenu">
       <li><router-link to="/">Home</router-link></li>
       <li><router-link to="/fiction">Fiction</router-link></li>
       <li><router-link to="/maps">Maps & Mods</router-link></li>
@@ -78,10 +76,13 @@ nav {
 button {
   background-color: var(--background-color);
   border-color: var(--text-color);
-  color: var(--text-color);
-  margin-left: auto;
   border-style: solid;
+  color: var(--text-color);
   font-family: "Lora", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  height: 3rem;
+  margin-left: auto;
+  margin-top: 1vh;
+  width: 7rem;
 }
 
 button:hover {
@@ -96,16 +97,16 @@ button:hover {
   top: 4.35rem;
   right: 0;
   z-index: 5;
-  font-size: 1.3em;
+  font-size: 1.4em;
+}
+
+.mobile li {
+  padding: 0.2rem 1rem;
 }
 
 .desktop {
-  display: none;
-}
-
-ul {
   align-items: center;
-  display: flex;
+  display: none;
   gap: 1.2rem;
   height: 100%;
   list-style-type: none;
@@ -123,11 +124,6 @@ a, button {
 
 a:hover {
   color: #555555;
-}
-
-button {
-  width: 7rem;
-  height: 3rem;
 }
 
 
