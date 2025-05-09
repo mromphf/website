@@ -16,7 +16,7 @@ export default {
 
 
 a {
-  color: blue;
+  color: var(--inline-anchor);
 }
 
 

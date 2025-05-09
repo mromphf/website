@@ -16,7 +16,7 @@
 }
 
 .markdown a {
-    color: blue;
+    color: var(--inline-anchor);
 }
 
 .markdown hr {
@@ -31,12 +31,4 @@
 
 .markdown .front-matter {
     margin-bottom: 1em;
-}
-
-
-
-@media(prefers-color-scheme: dark) {
-    .markdown a {
-        color: #78c8b5;
-    }
 }
