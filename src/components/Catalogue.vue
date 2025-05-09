@@ -53,4 +53,8 @@ a:hover {
   color: #555555;
 }
 
+.content-housing {
+  margin-top: 0;
+}
+
 </style>

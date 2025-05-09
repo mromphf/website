@@ -41,6 +41,7 @@ export default {
 
 
 .content-housing {
+  margin-top: 0;
   column-count: 1;
   text-align: center;
 }
