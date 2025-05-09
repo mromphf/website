@@ -4,7 +4,7 @@ import titles from "@/data/titles.js";
 
 
 export default {
-  name: 'Fiction',
+  name: 'Catalogue',
   components: { Masthead },
   data() {
     return {

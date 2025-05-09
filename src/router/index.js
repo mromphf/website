@@ -1,6 +1,6 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import About from '@/components/About.vue'
-import Index from '@/components/Index.vue';
+import Catalogue from '@/components/Catalogue.vue';
 import Landing from '@/components/Landing.vue'
 import Maps from "@/components/Maps.vue";
 import Product from "@/components/Product.vue";
@@ -11,7 +11,7 @@ const routes = [
     { name: 'root',path: '/', component: Landing, meta: {title: 'Mike Romeo'} },
     { name: 'about', path: '/about', component: About , meta: {title: 'About | Mike Romeo'}},
     { name: 'maps', path: '/maps', component: Maps , meta: { title: 'Maps & Mods | Mike Romeo' }},
-    { name: 'fiction', path: '/fiction', component: Index , meta: {title: 'Fiction | Mike Romeo' } },
+    { name: 'fiction', path: '/fiction', component: Catalogue, meta: {title: 'Fiction | Mike Romeo' } },
     { name: 'mapview', path: '/maps/:id', component: Product , meta: {title: 'Maps | Mike Romeo' } },
     { name: 'story', path: '/fiction/:slug', component: Post, meta: { title: 'tory Post| Mike Romeo' }},
     { name: 'post', path: '/blog/:slug', component: Post, meta: { title: 'Blog | Mike Romeo' }},
