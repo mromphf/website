@@ -13,7 +13,7 @@ Built with `Vue.js` using `npm` for installing deps and building code, etc.
 
 ### Install Dependencies
 ```sh
-npm install
+npm install --legacy-peer-deps
 ```
 
 ### Compile and Hot-Reload for Development
