@@ -109,13 +109,17 @@ a:visited {
         --h1-size: 2.25rem;
         --h2-size: 1.75rem;
     }
+
+    .content-housing {
+        width: 80%;
+    }
 }
 
 @media(min-width: 1280px) {
     .content-housing {
         column-count: 2;
         margin-top: 3rem;
-        width: 90%;
+        width: 60%;
     }
 }
 
@@ -128,6 +132,6 @@ a:visited {
 
 @media(min-width: 2560px){
     .content-housing {
-        width: 60%;
+        width: 40%;
     }
 }

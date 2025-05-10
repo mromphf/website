@@ -21,15 +21,20 @@ const post = computed(() => {
   </article >
 </template>
 
-<style>
+<style scoped>
 
 .single-column {
   column-count: 1;
 }
 
+.content-housing {
+  padding: 0;
+}
+
 @media(min-width: 768px) {
   .content-housing {
-    width: 87.25%
+    width: 90.25%;
+    padding: 1rem;
   }
 }
 
