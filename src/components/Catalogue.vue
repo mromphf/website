@@ -8,6 +8,7 @@ export default {
   components: { Masthead },
   data() {
     return {
+      header: this.$route["meta"]["header"],
       titles: Object.values(titles)
         .filter(title => title.product === "fiction")
     }
@@ -21,7 +22,7 @@ export default {
 
   <section class="content-housing">
     <div>
-      <h1>Fiction</h1>
+      <h1>{{ header }}</h1>
 
       <ul>
         <li v-for="title in titles" :key="title.id">
