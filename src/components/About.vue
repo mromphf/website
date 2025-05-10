@@ -12,7 +12,7 @@ export default {
 
   <section class="content-housing" aria-label="About">
     <div>
-      <h2>Software Developer from Canada</h2>
+      <h2>Software developer from Canada</h2>
       <ul>
         <li><a href="https://github.com/mromphf">Github</a></li>
         <li><a href="https://www.gamemaps.com/profile/1267645">GameMaps</a></li>
@@ -27,12 +27,16 @@ ul {
   margin-top: 1rem;
   list-style-type: none;
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .content-housing {
   column-count: 1;
   width: 90%;
+  margin-top: 1.5rem;
 }
 
 a {
