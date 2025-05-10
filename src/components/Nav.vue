@@ -157,7 +157,7 @@ a:hover {
   }
 
   ul {
-    width: 50%;
+    width: 53%;
   }
 }
 </style>
