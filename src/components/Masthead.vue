@@ -26,7 +26,8 @@ header {
   justify-content: center;
   background-color: beige;
   width: 100%;
-  height: 15rem;
+  height: 10rem;
+  margin-bottom: 1rem;
 }
 
 h1, h2 {
@@ -82,6 +83,10 @@ img {
 
 /* Medium - Tablets(portrait) */
 @media(min-width: 768px) {
+  header {
+    height: 12rem;
+  }
+
   .headshot {
     transform: scale(0.175) translate(29em, 29em);
   }
@@ -91,6 +96,7 @@ img {
 @media(min-width: 1280px) {
   header {
     margin-top: 0;
+    height: 15rem;
   }
 
   img {
