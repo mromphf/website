@@ -3,8 +3,13 @@
     font-size: 1.1em;
 }
 
-.markdown h1 {
+.markdown h1, h2 {
     text-align: center;
+}
+
+.markdown h2 {
+    font-size: 1em;
+    color: #aaaaaa;
 }
 
 .markdown p {
