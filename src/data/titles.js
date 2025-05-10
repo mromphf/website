@@ -1,9 +1,10 @@
 const titles = [
     {
-        product: "nwn",
-        title: "Sinister Sweetwater Cider",
-        reference: "https://neverwintervault.org/project/nwnee/module/sinister-sweetwater-cider",
-        date: "Sept 2024"
+        product: "fiction",
+        title: "Disturbing the Peace",
+        reference: "/fiction/disturbing-the-peace",
+        date: "Oct 2023",
+        internal: true
     },
     {
         product: "blog",
@@ -11,6 +12,12 @@ const titles = [
         reference: "/blog/growing-food-in-the-desert",
         date: "April 2025",
         internal: true
+    },
+    {
+        product: "nwn",
+        title: "Sinister Sweetwater Cider",
+        reference: "https://neverwintervault.org/project/nwnee/module/sinister-sweetwater-cider",
+        date: "Sept 2024"
     },
     {
         product: "war2",
@@ -35,13 +42,6 @@ const titles = [
         title: "Valor",
         reference:"https://www.gamemaps.com/details/32795",
         date: "Feb 2025"
-    },
-    {
-        product: "fiction",
-        title: "Disturbing the Peace",
-        reference: "/fiction/disturbing-the-peace",
-        date: "Oct 2023",
-        internal: true
     },
     {
         product: "war2",
