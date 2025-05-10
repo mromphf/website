@@ -9,7 +9,7 @@ export default {
   components: {Ticket, Masthead},
   data() {
     return {
-      tickets: titles,
+      tickets: titles.slice(0, 10),
       products: products,
       productTitle(t) {
         return products[t.product]?.title || 'Void'
