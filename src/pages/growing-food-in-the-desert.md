@@ -3,7 +3,8 @@
 ## Floods, Plagues, and Gardens in the Ancient World
 
 <section class="front-matter" aria-label="Front Matter">
-<p>by Mark Romphf</p>
+<p aria-label="Author">by Mark Romphf</p>
+<p aria-label="Date" class="date">April 2025</p>
 </section>
 
 ### Introduction
@@ -109,7 +110,7 @@ The Hebrews wrote of plagues, apocalyptic floods, parting seas. We’ve crawled 
 Christianity has grown from its origins as a radical underground movement into one the world’s most practiced religions. The Torah and the Old Testament prophecies told and shared by the Hebrew tribes retain their exalted and profound status. These texts were written by people who grew their food from the ground with tools made of stone and wood. Our tools have come a long way, but our mouths are many and the money changers in the temple are filling their pockets with the pennies of the poor.
 
 If the Nazarene returned, would he be surprised by what he saw?
-
+***
 ### References
 
 - [Encyclopedia Britannica](https://www.britannica.com/)  

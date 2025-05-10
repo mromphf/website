@@ -27,6 +27,12 @@ const post = computed(() => {
   column-count: 1;
 }
 
+@media(min-width: 768px) {
+  .content-housing {
+    width: 87.25%
+  }
+}
+
 
 @media(min-width: 1280px) {
   .content-housing {

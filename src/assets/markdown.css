@@ -9,7 +9,7 @@
 
 .markdown h2 {
     font-size: 1em;
-    color: #aaaaaa;
+    color: var(--text-date-color);
 }
 
 .markdown h3 {
@@ -23,6 +23,16 @@
     text-align: justify;
     line-height: 1.75em;
     text-indent: 1.5em;
+}
+
+.markdown ul {
+    width: 90%;
+    margin: auto;
+}
+
+.markdown ul li {
+    list-style-type: disc;
+    margin: 0.1em;
 }
 
 .markdown a {
