@@ -6,7 +6,7 @@
 <p>by Mark Romphf</p>
 </section>
 
-# Introduction
+### Introduction
 
 It occurred to me, long after I’d lapsed, that I knew very little about the Holy Bible. As a child of a moderate Catholic family and student in a Catholic school system, there was always a copy within reach. It was the *Bible.* It was important, even sacred, and that was enough for me. It was also intimidating and boring. I can’t recall a moment when I picked it up on purpose and read it out of curiosity.
 
@@ -18,7 +18,7 @@ Through an anthropological lens, we could consider the Bible as a reflection of 
 
 Instead of trying to substantiate or rebuke the text’s authenticity as the revelatory ethical framework of a post-void self-creating supercreator, let’s think of it in terms of people. Let’s think about a world where most travellers had to walk to where they’re trying to go. A world of floods, locusts, and imperial oppression, where a lost animal or failed crop could be a matter of life and death.
 
-# Structure
+### Structure
 
 Most people know the Bible is divided into two distinct works called the [Old Testament](https://www.britannica.com/topic/Old-Testament) and the [New Testament](https://www.britannica.com/topic/New-Testament). The Old Testament is substantially longer, with the New Testament beginning around page 800 (of about a 1000\) in the New International Version. The Old was originally written down (long following the oral tradition) in Biblical Hebrew languages with splashes of Aramaic, while the New would’ve been first recorded in dialects of Greek. But the primary differentiating factor is Jesus Christ. Everything in the text orbits the life and preaching of Jesus Christ, the Son of God. His place in the Old Testament is more complex and ambiguous. Theologians, scholars, and historians have worked for millenia to identify allusions and references to [Christ](https://www.merriam-webster.com/dictionary/Christ#word-history) within the Hebrew prophecies, but he is never mentioned by name.
 
@@ -28,7 +28,7 @@ The structure of the New Testament is straightforward. The first four books, the
 
 The Old Testament is not overtly Christian, but Biblical scholars and theologians retroactively superimpose and integrate Christian identities into the text through rigorous reinterpretation. The Old Testament also exists in the form of the [Hebrew Bible](https://www.britannica.com/topic/Hebrew-Bible), the precursor Jewish text that Christians incorporated in the Holy Bible with minor structural differences. Itself divided into distinct collections and layers, in many ways it is the story and belief system of the Hebrew people. The first five books: Genesis, Exodus, Leviticus, Numbers, and Deuteronomy, form the [Torah](https://www.britannica.com/topic/Torah), which might be thought of as the *Very Old Testament*. The Torah, functioning well as a mythology, depicts many of the characters and stories you’d recognize: Adam and Eve, Cain and Abel, Abraham, Noah, Moses. This is the foundation of the Abrahamic tradition, upon which the Hebrews (later, Jews and Christians) built their religions. It’s useful to think of the Hebrews not as a monolithic ethnic group but as a collective identity shared by nomadic Near Eastern tribes who observed the Abrahamic culture, history, and prophecies. The Old Testament could then be read as an account of Hebrew life across the millennium preceding the birth of Jesus, and their understanding of the world they occupied and their place in it.
 
-# World
+### World
 
 Earth has a continent-spanning belt of arid climate stretching from the Western Sahara to Mongolia. On a globe, what we now call the [Near East](https://www.britannica.com/place/Near-East) sits roughly between these points, on the East Coast of the Mediterranean Sea, unfolding towards Mesopotamia, Egypt, Persia, and Anatolia. Summers are hot and dry, lousy with dust, haze, sandstorms, prolonged droughts and heat waves. The Lebanon and Zagros Mountains shelter valleys and plains, drawing settlers to fertile soil. Ranchers kept sheep, goats, donkeys, cattle, and dogs. Wandering the wilderness posed the risk of encountering a lion or wolf. Snakes and scorpions waited in the thistles, often venomous. Greece, Egypt, and Persia were developing civilizations and mythologies that would become foundational, later to crumble. This is the Biblical World.
 
@@ -36,7 +36,7 @@ At the time of Jesus’s birth, the Jews of Palestine were struggling under Roma
 
 Late contrarian [Christopher Hitchens](https://www.britannica.com/biography/Christopher-Hitchens) posited the Old Testament’s supposed warrant for “*trafficking in humans, for ethnic cleansing, for slavery, for bride price, and indiscriminate massacre*” as evidence for its ethical bankruptcy. Though these themes are overtly present within the text and are worthy of close examination, Hitchens in his critique described the Hebrews as “*crude, uncultured human mammals.”* This disparaging, incurious designation is an impoverished basis for discussing the people who created and propagated one of the world’s lasting belief systems. The Hebrews were not rich and powerful, nor did they have access to the Periodic Table of Elements, Calculus, or the printing press. Nevertheless they built temples with tools of wood and stone, wrote prophecies, grew food in the desert, with a vibrant culture of stories, music, and poems. They were downtrodden and outcast people who survived in a climate of floods, hail, imperialism, and scorched earth.
 
-# God
+### God
 
 Who is God and what does he look like? That’s a tough one, considering the variety of his manifestations across the Bible. His reputation precedes him, especially regarding his early days. The ever-delightful [Professor Dawkins](https://www.britannica.com/biography/Richard-Dawkins) describes the Old Testament god as “*arguably the most unpleasant character in all fiction: jealous and proud of it; a petty, unjust, unforgiving control-freak; a vindictive, bloodthirsty ethnic cleanser; a misogynistic, homophobic, racist, infanticidal, genocidal, filicidal, pestilential, megalomaniacal, sadomasochistic, capriciously malevolent bully.*” A bit polemic for our purposes. Perhaps we could reassess this entity through a lens more adjacent to people and the ancient world.
 
@@ -52,7 +52,7 @@ Notice how Old Testament English translations refer to God as “Lord” or “T
 
 To break the Pharaoh and secure the Hebrew’s liberation, the Lord unleashes plagues that would have devastated an agricultural society. Gnats, locusts, drought, livestock diseases, hail. What force is this that makes a joke of the Egyptian gods? “If you refuse to let them go and continue to hold them back, the hand of the Lord will bring a terrible plague on your livestock in the field—on your horses, donkeys and camels and on your cattle, sheep and goats.” ([Exodus 9:2-3](https://www.biblegateway.com/passage/?search=Exodus%209%3A2-3&version=NIV)) What use are riches and weapons when your people are freezing and hungry in the dark?
 
-# Jesus
+### Jesus
 
 Christians refer to him as Jesus Christ. Historians usually go with Jesus of [Nazareth](https://www.britannica.com/place/Nazareth-Israel), sometimes the Nazarene. The academic consensus is that he was [real](https://www.britannica.com/biography/Jesus), that he was from Nazareth, spoke [Aramaic](https://www.britannica.com/topic/Aramaic-language) (not Ara*bic*), and was [crucified](https://www.britannica.com/topic/crucifixion-capital-punishment) as per Roman law at the time. The rest is somewhat of an existential fill-in-the-blank, so we’ll abstain from the matter of divinity. Here we’re less concerned with Jesus Christ, Son of God, and more interested in Jesus of Nazareth, a Jewish preacher who lived in a savage climate, literate in Hebrew prophecy, surrounded by rebels fighting the Romans.
 
@@ -76,7 +76,7 @@ The Nazarene was unhappy with this. In a rare display of violence, “Jesus ente
 
 When the high priests send a crowd armed with swords and clubs to arrest him, a composed Jesus replies “Do what you came for, friend.” ([Matthew 26:50](https://www.biblegateway.com/passage/?search=Matthew%2026%3A50&version=NIV))
 
-# Satan
+### Satan
 
 It would be reductive, even heretical, to say everything you know about Satan is a lie. But everything you know about Satan is almost certainly conflated with description and imagery that doesn't necessarily appear in the Bible. The Hebrew word *Satan* translates more closely to [*adversary* or *accuser*](https://www.merriam-webster.com/dictionary/Satan#word-history)*.* “The accuser” is an antagonistic presence in the Bible, but rarely in the context of fire and brimstone. Often *the satan* acts under permission or direction from God, playing the role of a heavenly prosecutor rather than a sadistic conductor of limitless cosmic suffering. Many Christian ideas about Satan and Hell and eternal damnation were imported from historical features separate from authorship of the Bible by centuries. And who’s responsible for that?
 
@@ -96,7 +96,7 @@ The satan reprises his role in the New Testament. After his baptism, “Jesus wa
 
 The satan advises and takes orders from God, not as a fallen angel or prince of darkness, but as an accuser. His is often referred to as the “tempter,” but let’s not forget that the New Testament was first written in Greek. The Greek word for “tempter” also [translates to “tester.”](https://www.merriam-webster.com/dictionary/tempter#word-history) This is not to say he is benign. In the Biblical World, encountering the satan is bad news. A trial is coming, *the adversary* is good at his job.
 
-# Revelation
+### Revelation
 
 In [Andy Weir](https://andyweirauthor.com/)’s “[The Martian](https://www.isfdb.org/cgi-bin/title.cgi?1678924)”, astronaut Mark Watney’s first concern after being stranded on Mars is food. And his first solution is to grow food out of the ground. Reenacting his own creation myth, the Watney character harkens back to humankind’s first enterprise: farming, and brings it to a galactic stage.
 
@@ -110,10 +110,10 @@ Christianity has grown from its origins as a radical underground movement into o
 
 If the Nazarene returned, would he be surprised by what he saw?
 
-# References
+### References
 
-- *The Holy Bible: New International Version* as provided by [Bible Gateway](https://www.biblegateway.com/)  
 - [Encyclopedia Britannica](https://www.britannica.com/)  
+- *The Holy Bible: New International Version* as provided by [Bible Gateway](https://www.biblegateway.com/)
 - Belt, Don. “Life and Time.” *National Geographic,* June 2021  
 - Christopher Hitchens: *God is Not Great: How Religion Poisons Everything.* (Emblem, 2008\) pg. 102  
 - Scott G. Bruce: *The Penguin Book of Hell* (New York: Penguin Books, 2018\)  
