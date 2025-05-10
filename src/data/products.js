@@ -23,6 +23,11 @@ const products = {
         id: "fiction",
         path: "fiction",
         title: "Fiction",
+    },
+    blog: {
+        id: "blog",
+        path: "blog",
+        title: "Blog",
     }
 }
 

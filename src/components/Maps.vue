@@ -4,7 +4,7 @@ import Masthead from "@/components/Masthead.vue";
 import products from "@/data/products.js";
 
 let filtered = Object.values(products)
-    .filter(p => p.id !== 'fiction');
+    .filter(p => p.id !== 'fiction' && p.id !== 'blog');
 
 export default {
   name: "Maps",

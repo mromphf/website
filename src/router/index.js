@@ -12,6 +12,7 @@ const routes = [
     { name: 'about', path: '/about', component: About , meta: {title: 'About | Mike Romeo'}},
     { name: 'maps', path: '/maps', component: Maps , meta: { title: 'Maps & Mods | Mike Romeo' }},
     { name: 'fiction', path: '/fiction', component: Catalogue, meta: {title: 'Fiction | Mike Romeo', header: "Fiction" } },
+    { name: 'blog', path: '/blog', component: Catalogue, meta: {title: 'Blog | Mike Romeo', header: "Blog" } },
     { name: 'mapview', path: '/maps/:id', component: Product , meta: {title: 'Maps | Mike Romeo' } },
     { name: 'story', path: '/fiction/:slug', component: Post, meta: { title: 'Post | Mike Romeo' }},
     { name: 'post', path: '/blog/:slug', component: Post, meta: { title: 'Blog | Mike Romeo' }},

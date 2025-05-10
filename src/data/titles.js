@@ -6,6 +6,13 @@ const titles = [
         date: "Sept 2024"
     },
     {
+        product: "blog",
+        title: "Growing Food in the Desert",
+        reference: "/blog/growing-food-in-the-desert",
+        date: "April 2025",
+        internal: true
+    },
+    {
         product: "war2",
         title: "Encampments",
         reference:"https://www.gamemaps.com/details/31958",

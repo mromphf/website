@@ -47,6 +47,7 @@ export default {
   <nav aria-label="Navigation Menu">
     <ul class="desktop">
       <li><router-link to="/">Home</router-link></li>
+      <li><router-link to="/blog">Blog</router-link></li>
       <li><router-link to="/fiction">Fiction</router-link></li>
       <li><router-link to="/maps">Maps & Mods</router-link></li>
       <li><router-link to="/about">About</router-link></li>
@@ -56,6 +57,7 @@ export default {
 
     <ul v-if="visible" class="mobile" ref="mobileMenu">
       <li><router-link to="/">Home</router-link></li>
+      <li><router-link to="/blog">Blog</router-link></li>
       <li><router-link to="/fiction">Fiction</router-link></li>
       <li><router-link to="/maps">Maps & Mods</router-link></li>
       <li><router-link to="/about">About</router-link></li>

@@ -7,10 +7,21 @@ export default {
   name: 'Catalogue',
   components: { Masthead },
   data() {
+    const hdr = this.$route["meta"]["header"];
+
     return {
-      header: this.$route["meta"]["header"],
+      header: hdr,
       titles: Object.values(titles)
-        .filter(title => title.product === "fiction")
+        .filter(title => title.product === hdr.toLowerCase())
+    }
+  },
+  watch: {
+    $route(to, from) {
+      const hdr = this.$route["meta"]["header"];
+
+      this.header = hdr;
+      this.titles = Object.values(titles)
+        .filter(title => title.product === hdr.toLowerCase())
     }
   }
 }

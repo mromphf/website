@@ -17,8 +17,8 @@ export default {
       productRef(t) {
         const prod = products[t.product] || {};
 
-        if (prod.path === "fiction") {
-          return "fiction";
+        if (prod.path === "fiction" || prod.path === "blog") {
+          return prod.path;
         }
 
         return `${prod.path}/${prod.id}`;
