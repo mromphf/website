@@ -129,7 +129,7 @@ Ted clapped him on the shoulder. “How was church?”
 
 “How’s your job hunt?” Joe asked. “There are some fellows at the church who could use a handy guy like you. I could pass on your resume if you like.”  
 
-“Oh, uh… Nah. Thanks, Joe. Leg’s still a bit stiff. Don’t want to rush, you know? Might reinjure it.”  
+“Oh, uh... Nah. Thanks, Joe. Leg’s still a bit stiff. Don’t want to rush, you know? Might reinjure it.”  
 
 Lee emerged empty-handed.  
 
@@ -171,7 +171,7 @@ Joe set his A\&W on the counter and pulled a pack of Duracells from a kitchen dr
 
 ***  
 
-Ted forgot about the lentils and the chicpeas and fell asleep on his couch with the radio on, surrounded by crumpled beer cans. Screaming blue and red lights jolted him awake in the night. He blinked through a sledging headache and shambled to the window.  
+Ted forgot about the lentils and the chickpeas and fell asleep on his couch with the radio on, surrounded by crumpled beer cans. Screaming blue and red lights jolted him awake in the night. He blinked through a sledging headache and shambled to the window.  
 
 There was an ambulance outside Joe’s place.  
 
@@ -231,7 +231,7 @@ Ted brought his crate to the first usher he spotted: a young woman, four feet ta
 
 “I brought these. I’m Ted Labour. Joe said there was a food drive. Do I bring these straight to the priest?”  
 
-“Oh… thank you. I can take them.”  
+“Oh... thank you. I can take them.”  
 
 She nearly capsized as he dumped sixty pounds into her arms.  
 
@@ -245,7 +245,7 @@ She shuffled away with her oversized load as people trickled through the doors.
 
 “Not sure. Let’s wait it out. Women and children first, probably.”  
 
-He rocked on his feet, hands in his pockets, watching the gentle crowds who’d come to bid Joe farewell. Loraine lumbered through the church doors and he felt his hungover guts melt into slime.  
+He rocked on his feet, hands in his pockets, watching the gentle crowds who’d come to bid Joe farewell. Loraine lumbered through the church doors, and he felt his hungover guts melt into slime.  
 
 “What are you doing here?”  
 
@@ -253,7 +253,7 @@ She scowled. “It’s a funeral. What do you think I’m doing here? Your breat
 
 “Your perfume is fucked. Did you even bring any non-perishable food items?”  
 
-“As a matter of fact…”  
+“As a matter of fact...”  
 
 The breathless popsicle-stick usher returned, sweating, and encouraged them to quietly enter the nave and find a seat.  
 
@@ -295,7 +295,7 @@ He stuffed it into his wallet as Stock carried on breaking fingers.
 
 They assessed the spread. Sandwiches, salads, brownies, lemonade, cookies, trays of carrots and celery and cauliflower and sugar snap peas. Ted skipped the veggies and heaped some potato salad onto a paper plate with a stack of roast beef sandwiches gushing with mustard.  
 
-“Look at all these people,” Ted said through a forkful. “I can’t imagine this many people at *my* funeral. Maybe I should \- holy shit… this potato salad is amazing. Who made this?”  
+“Look at all these people,” Ted said through a forkful. “I can’t imagine this many people at *my* funeral. Maybe I should — holy shit... this potato salad is amazing. Who made this?”  
 
 “I did.” Loraine appeared, cigarette pinched in her claws. “So what?”  
 
@@ -305,7 +305,7 @@ They assessed the spread. Sandwiches, salads, brownies, lemonade, cookies, trays
 
 “Liar. Did you even know Joe?”  
 
-“Of course I did. Genius chess player. Very well read. We…” She stopped and sniffed. “We talked about starting a book club. Damn it\!”  
+“Of course I did. Genius chess player. Very well-read. We...” She stopped and sniffed. “We talked about starting a book club. Damn it\!”  
 
 She pulled a napkin from her pocket and dabbed glistening eyes. Ted felt a lump in his throat. Joe in a book club? Generous and tactical and literate. Taken from Jordan Village before his time.  
 
@@ -319,7 +319,7 @@ Ted coughed. “Me? I’m good. It’s the onions in the potato salad. Stop cryi
 
 “You’re such a moron,” Loraine said.  
 
-“Listen,” He stood straight, rolled his shoulders back, asserting himself with posture, and prepared the conversation-ending retort. Then three buttons snapped off his bulging dress shirt, exposing his hairy bellybutton.  
+“Listen,” he stood straight, rolled his shoulders back, asserting himself with posture, and prepared the conversation-ending retort. Then three buttons snapped off his bulging dress shirt, exposing his hairy bellybutton.  
 
 Ted set his plate down and sought privacy.  
 
@@ -335,7 +335,7 @@ Loraine came outside to fill her watering can.
 
 “I quit smoking.”  
 
-“You… what?”  
+“You... what?”  
 
 She exposed her arm, plastered with patches.  
 
@@ -387,7 +387,7 @@ He tossed his prehistoric stack of Jerry Springer era TV guides, along with an o
 
 Over the next few days college kids and single parents and collectors trickled up and down his front steps to give him handfuls of cash eight, ten, thirty, sixty bucks at a time. The size of his home grew as he unearthed surfaces and corners that had spent years hidden from sunlight.  
 
-Then he stuffed some old clothes into garbage bags and gave Lee twenty bucks to drive them to St. Nicholas Parish. Old trousers, Hawaan shirts, loafers, graphic tees, oversized sweats, football jerseys, raincoats and long underwear. He reclaimed dresser space and closet real estate.  
+Then he stuffed some old clothes into garbage bags and gave Lee twenty bucks to drive them to St. Nicholas Parish. Old trousers, Hawaiian shirts, loafers, graphic tees, oversized sweats, football jerseys, raincoats and long underwear. He reclaimed dresser space and closet real estate.  
 
 Stock Owens’s business card remained tucked in his wallet.  
 
@@ -407,7 +407,7 @@ She turned, caught in the act, caught on tape under the blinking light of the co
 
 “And what, you stopped in for a pack of gum?”  
 
-“I came here for, uh… soup.”  
+“I came here for, uh... soup.”  
 
 “Bullshit. The machine is down in the offsale and you’re here for cash.”  
 
@@ -425,11 +425,11 @@ High on victory, Ted shoved seven cans of coke and a bottle of sunscreen into a 
 
 The next day, slicked with sunscreen, green Rider cap protecting his noggin from the harmful ultraviolet rays, Ted Labour barbequed hot dogs. He waved at Lee, who was sweating out his second lap around Jordan Village, paying his tribute to chessmaster Joe Beard.  
 
- Eager to do his part, Ted drank sugar-free no-name bubbly water that forced him to the toilet every seven minutes. He drank non-alcoholic beer from Sobey’s that tasted like feet. He drank energy drinks and zero-calorie soda and iced tea and iced coffee. He was crazed for booze, carbonated, bubbly, bitter in the best way, that made the sun shine brighter and spiked the dullness of Jordan life.  
+ Eager to do his part, Ted drank sugar-free no-name bubbly water that forced him to the toilet every seven minutes. He drank non-alcoholic beer from Sobey’s that tasted like feet. He drank energy drinks and zero-calorie soda and iced tea and iced coffee. He was crazed for booze, carbonated, bubbly, bitter in the best way, which made the sun shine brighter and spiked the dullness of Jordan life.  
 
 Loraine slimed out of her trailer, sweat-soaked, tomato-red, hair clipped high, minutes from death, and began beating her air conditioner.  
 
-“Son of a god damn bitch…”  
+“Son of a god damn bitch...”  
 
 She smacked and slapped and kicked.  
 
@@ -469,7 +469,7 @@ The human vulture porch-perched over him, chewing whole packs of nicotine gum at
 
 “You done yet?”  
 
-“It’ll be done when it’s done,” Ted said, picking his nose with his pliers.. “Can’t you piss off inside or something?”  
+“It’ll be done when it’s done,” Ted said, picking his nose with his pliers... “Can’t you piss off inside or something?”  
 
 “It’s a pressure cooker in there. Hurry the hell up. Christ. I could use a cigarette.”  
 
