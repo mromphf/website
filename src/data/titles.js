@@ -1,6 +1,13 @@
 const titles = [
     {
         product: "fiction",
+        title: "Jordan Village",
+        reference: "/fiction/jordan-village",
+        date: "May 2025",
+        internal: true
+    },
+    {
+        product: "fiction",
         title: "Disturbing the Peace",
         reference: "/fiction/disturbing-the-peace",
         date: "Oct 2023",
