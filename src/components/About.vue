@@ -15,9 +15,10 @@ export default {
       <h2>Software developer from Canada</h2>
       <ul>
         <li><a href="https://github.com/mromphf">Github</a></li>
+        <li><a href="https://bsky.app/profile/mikeromeo24.bsky.social">Bluesky</a></li>
         <li><a href="https://www.gamemaps.com/profile/1267645">GameMaps</a></li>
-        <li><a href="mailto:markromphf@gmail.com">Email me</a></li>
       </ul>
+      <a class="center" href="mailto:markromphf@gmail.com">Email me</a>
     </div>
   </section>
 </template>
@@ -31,6 +32,12 @@ ul {
   width: max-content;
   margin-left: auto;
   margin-right: auto;
+}
+
+.center {
+  margin-top: 1vh;
+  display: flex;
+  justify-content: center;
 }
 
 .content-housing {
