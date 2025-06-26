@@ -6,7 +6,9 @@ export default {
 
 <template>
   <footer aria-label="Footer">
-    <section></section>
+    <section>
+      Artwork by <a class="ext" href="https://jclunaart.carrd.co/">J.Luna</a>
+    </section>
 
     <section aria-label="Copyright">
       Copyright &copy; 2025 Mark Romphf
@@ -26,6 +28,10 @@ footer {
   text-align: center;
   width: 80%;
   font-size: 0.8em;
+}
+
+.ext {
+  color: var(--inline-anchor);
 }
 
 @media(min-width: 1280px) {
